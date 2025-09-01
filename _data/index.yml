@@ -1,14 +1,10 @@
 alerts:
   - title: "Hello!"
-    text: Welcome to your new conference website.
-    color: green-1
-  - text: You can have multiple alerts, with different colors. This is the default.
+    text: Welcome to the CAMCAD workshop website. This workshop is NOT confirmed -- all details are subject to change.
 buttons:
-  - text: GitHub
-    url: https://github.com/piazzai/jekyll-nagymaros
+  - text: CHI 2026
+    url: https://chi2026.acm.org/
     disabled: false
-  - text: RubyGem
-    url: https://rubygems.org/gems/jekyll-nagymaros
+  - text: Oxford CCAI
+    url: https://oxfordccai.org/
     disabled: false
-  - text: Disabled
-    disabled: true
