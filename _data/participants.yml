@@ -1,23 +1,49 @@
 groups:
-  - title: Scientific committee
+  - title: Organisers
     sort: false
-    columns: false
+    columns: true
     members:
-      - name: Aptenodytes
-        surname: Patagonicus
-        email: king@pengu.in
-        affil: University of Antarctica
-      - name: Aptenodytes
-        surname: Forsteri
-        email: emperor@pengu.in
-        affil: Subantarctic College
-  - title: Local organizer
-    columns: false
-    members:
-      - name: Pygoscelis
-        surname: Papua
-        email: gentoo@pengu.in
-        affil: Falkland University
+      - name: Vidminas
+        surname: Vizgirda
+        email: vidminas.vizgirda@cs.ox.ac.uk
+        affil: University of Oxford & University College London
+      - name: Isobel
+        surname: Voysey
+        email: isobel.voysey@cs.ox.ac.uk
+        affil: University of Oxford
+      - name: Zaki
+        surname: Pauzi
+        email: z.pauzi@ucl.ac.uk
+        affil: University College London
+      - name: Najme
+        surname: Babai
+        email: Najme.Babai@oulu.fi
+        affil: University of Oulu
+      - name: Eva
+        surname: Durall Gazulla
+        email: Eva.DurallGazulla@oulu.fi
+        affil: University of Oulu
+      - name: Jane
+        surname: Waite
+        email: jane.waite@raspberrypi.org
+        affil: Raspberry Pi Foundation
+      - name: Ayça
+        surname: Atabey
+        email: a.atabey@ed.ac.uk
+        affil: University of Edinburgh
+      - name: Sarah
+        surname: Turner
+        email: s.turner@ucl.ac.uk
+        affil: University College London
+      - name: Manolis
+        surname: Mavrikis
+        email: m.mavrikis@ucl.ac.uk
+        affil: University College London
+      - name: Jun
+        surname: Zhao
+        email: jun.zhao@cs.ox.ac.uk
+        affil: University of Oxford
+
   - title: Participants
     sort: true
     columns: true
