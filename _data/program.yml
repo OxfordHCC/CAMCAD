@@ -1,62 +1,58 @@
 legend:
   title: Legend
   categories:
-    - name: A category
+    - name: Presentations
       color: blue-6
-    - name: Another category
+    - name: Posters
       color: red-6
-    - name: Yet another category
+    - name: Activities
       color: teal-6
 days:
-  - name: Day 1
+  - name: Session 1 (14:10 -- 15:40): whole group activities
     events:
-      - time: 8:00 to 9:00
-        title: Registration and coffee
-      - time: 9:00 to 11:00
-        title: Lorem ipsum
-        subtitle: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-        category: A category
-      - time: 11:00 to 13:00
-        title: Dolor sit amet
-        subtitle: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        category: A category
-      - time: 13:00 to 14:00
-        title: Lunch break
-      - time: 14:00 to 16:00
-        title: Consectetur adipiscing elit
-        subtitle: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-        category: Another category
-      - time: 16:00 to 18:00
-        title: Sed do eiusmod
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-        category: Another category
-  - name: Day 2
-    events:
-      - time: 8:00 to 9:00
-        title: Coffee
-      - time: 9:00 to 11:00
-        title: Tempor incididunt
-        subtitle: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        category: A category
-        paper: /assets/files/paper-1.pdf
-      - time: 11:00 to 13:00
-        title: Ut labore et dolore
-        subtitle: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-        category: Another category
-      - time: 13:00 to 14:00
-        title: Lunch break
-      - time: 14:00 to 16:00
-        title: Magna aliqua
-        subtitle: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-        category: Yet another category
-        paper: /assets/files/paper-2.pdf
+      - time: 14:10 to 14:25
+        title: Overview of themes from all accepted workshop submissions
+        category: Presentations
         slides: /assets/files/slides.pdf
-      - time: 16:00 to 18:00
-        title: Poster presentations
-        category: Yet another category
+      - time: 14:25 to 14:50
+        title: Invited keynote talk and Q&A
+        subtitle: The keynote speaker is to be confirmed
+        category: Presentations
+      - time: 14:50 to 15:40
+        title: Lightning presentations from participants and audience Q&A
+        subtitle: The speaker lineup is to be confirmed
+        category: Presentations
+  - name: Break and Poster session (15:40 -- 16:20): refreshments and informal discussions over posters from submissions
+    events:
+      - time: 15:40 to 16:00
+        title: Group A posters
+        subtitle: Half of the group will present their posters first, while the other half can enjoy refreshments and check out others' work
+        category: Posters
         poster:
           - /assets/files/poster-a.pdf
           - /assets/files/poster-b.pdf
           - /assets/files/poster-c.pdf
-      - time: 18:00 to 19:00
-        title: Closing
+        paper: /assets/files/paper-1.pdf
+      - time: 16:00 to 16:20
+        title: Group B posters
+        subtitle: The groups will swap so those who presented their posters first can see others' work, while others can share theirs
+        category: Posters
+        poster:
+          - /assets/files/poster-a.pdf
+          - /assets/files/poster-b.pdf
+          - /assets/files/poster-c.pdf
+        paper: /assets/files/paper-1.pdf
+  - name: Session 2 (16:20 -- 17:50): break-out group activities
+    events:
+      - time: 16:20 to 16:50
+        title: Group task on translating research insights about co-agency to implications for practice
+        category: Activities
+      - time: 16:50 to 17:20
+        title: Group rotation and peer feedback
+        category: Activities
+      - time: 17:20 to 17:40
+        title: Whole group review of results, sharing ideas, documenting outputs
+        category: Activities
+      - time: 17:40 to 17:50
+        subtitle: Workshop recap and next steps
+        category: Presentations
