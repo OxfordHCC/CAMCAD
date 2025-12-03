@@ -3,8 +3,6 @@ layout: index
 description: Child-Centred AI-Mediated Collaborative Agency by Design workshop at CHI 2026
 ---
 
-Welcome to the draft workshop website. This site is for illustrative purposes only until the workshop proposal is confirmed.
-
 ## Call for proposals
 
 The Child-Centred AI-Mediated Collaborative Agency by Design (CAMCAD) at CHI 2026 workshop organisers invite researchers, designers, educators, and practitioners for an afternoon of sharing and exploration of how AI applications could be designed to support children and young people in making informed decisions and enacting them meaningfully.
@@ -26,7 +24,9 @@ We welcome submissions that address, but are not limited to, the following theme
 
 ### Submission Guidelines
 
-We invite applicants to submit posters (large single page) or short pictorials (visual extended abstracts up to 4 pages).
+We invite applicants to submit posters (large single page) or short pictorials (visual extended abstracts up to 4 pages). (What are pictorials? See [DIS 2026](https://dis.acm.org/2026/pictorials/) and [IDC 2026](https://idc.acm.org/2026/calls/pictorials/) pages for an explanation and examples).
+
+Poster and pictorial templates will be made available soon.
 
 This workshop is suitable for work-in-progress research, speculative ideas, position statements, short case studies, and highlights from completed research. Accepted submissions will be showcased in a poster session at the workshop and will be shared on the conference website.
 
@@ -48,3 +48,9 @@ All research conducted with human participants must comply with the [ACM Publica
 * CHI 2026 Conference: 13–17 April, 2026
 
 All times are the end of day in the Anywhere on Earth (AoE) time zone.
+
+### Acknowledgments
+
+The workshop is organised by the University of Oxford Child-Centred AI Design Lab team and colleagues from University College London, University of Oulu, Raspberry Pi Foundation, and University of Edinburgh.
+
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
