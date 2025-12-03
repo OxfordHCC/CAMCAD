@@ -43,7 +43,6 @@ groups:
         surname: Zhao
         email: jun.zhao@cs.ox.ac.uk
         affil: University of Oxford
-
   - title: Participants
     sort: true
     columns: true
