@@ -1,6 +1,9 @@
 alerts:
   - title: "Hello!"
-    text: Welcome to the CAMCAD workshop website. Submissions are not open yet, please check back after 18 December 2025.
+    text: "Welcome to the CAMCAD workshop website. Submissions are not open yet, please check back after 18 December 2025."
+logo:
+  url: "assets/img/CAMCAD logo.svg"
+  alt: "Image of an adult hand and child hand putting puzzle pieces together"
 buttons:
   - text: CHI 2026
     url: https://chi2026.acm.org/
