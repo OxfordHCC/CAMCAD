@@ -22,18 +22,11 @@ We welcome submissions that address, but are not limited to, the following theme
 * Ethical and critical perspectives on designing for intergenerational child-centred collaboration.
 * Research tools, policy frameworks, or design principles to support child-centred co-agency.
 
-### Submission Guidelines
+### Author Guidelines
 
 We invite applicants to submit posters (large single page) or short pictorials (visual extended abstracts up to 4 pages). (What are pictorials? See [DIS 2026](https://dis.acm.org/2026/pictorials/) and [IDC 2026](https://idc.acm.org/2026/calls/pictorials/) pages for an explanation and examples).
 
-Poster and pictorial templates will be made available soon.
-
 This workshop is suitable for work-in-progress research, speculative ideas, position statements, short case studies, and highlights from completed research. Accepted submissions will be showcased in a poster session at the workshop and will be shared on the conference website.
-
-All submissions, regardless of format, should clearly articulate their relevance to the workshop theme. Together with their submission, applicants will be asked to explicitly indicate:
-* Working definition of (co-)agency
-* Description of the stakeholder groups considered in the research, one of which must be children or young people
-* Description of the role of an AI system or application in the research
 
 Submissions will be reviewed by the workshop organisers and academic peers for relevance, originality, and potential to contribute to the discussion.
 If we receive a high number of submissions, applicants may be asked to review one or two peer submissions. At least one author will be required to register for and attend the workshop for each accepted submission.
