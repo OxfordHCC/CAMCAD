@@ -29,7 +29,7 @@ We invite applicants to submit posters (large single page) or short pictorials (
 This workshop is suitable for work-in-progress research, speculative ideas, position statements, short case studies, and highlights from completed research. Accepted submissions will be showcased in a poster session at the workshop and will be shared on the conference website.
 
 Submissions will be reviewed by the workshop organisers and academic peers for relevance, originality, and potential to contribute to the discussion.
-If we receive a high number of submissions, applicants may be asked to review one or two peer submissions. At least one author will be required to register for and attend the workshop for each accepted submission.
+If we receive a high number of submissions, applicants may be asked to review one or two peer submissions.
 At least one author will be required to register for and attend the workshop for each accepted submission.
 
 All research conducted with human participants must comply with the [ACM Publications Policy on Research Involving Human Participants and Subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects).
