@@ -24,7 +24,7 @@ We welcome submissions that address, but are not limited to, the following theme
 
 ### Author Guidelines
 
-We invite applicants to submit posters (large single page) or short pictorials (visual extended abstracts up to 4 pages). (What are pictorials? See [DIS 2026](https://dis.acm.org/2026/pictorials/) and [IDC 2026](https://idc.acm.org/2026/calls/pictorials/) pages for an explanation and examples).
+We invite applicants to submit posters (large single page) or short pictorials (visual extended abstracts up to 4 pages; see [DIS 2026](https://dis.acm.org/2026/pictorials/) and [IDC 2026](https://idc.acm.org/2026/calls/pictorials/) pages for an explanation and examples of pictorials).
 
 This workshop is suitable for work-in-progress research, speculative ideas, position statements, short case studies, and highlights from completed research. Accepted submissions will be showcased in a poster session at the workshop and will be shared on the conference website.
 
