@@ -29,7 +29,7 @@ layout: default
         <h1 class="display-3">{{ title }}</h1>
         <p class="lead">{{ description }}</p>
         {% if site.data.index.logo %}
-        <img src={{ site.data.index.logo.url | relative_url }} alt={{ site.data.index.logo.alt }} />
+        <img class="logo" src="{{ site.data.index.logo.url | relative_url }}" alt="{{ site.data.index.logo.alt }}" />
         {% endif %}
         <hr class="my-4">
         {{ content }}
