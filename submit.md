@@ -7,21 +7,17 @@ navorder: 4
 
 ## Submission guidelines
 
-We invite applicants to submit posters or short pictorials (visual extended abstracts up to 4 pages; see [DIS 2026](https://dis.acm.org/2026/pictorials/) and [IDC 2026](https://idc.acm.org/2026/calls/pictorials/) pages for an explanation and examples of pictorials).
+We invite applicants to submit posters or short pictorials (see [DIS 2026](https://dis.acm.org/2026/pictorials/) and [IDC 2026](https://idc.acm.org/2026/calls/pictorials/) pages for an explanation and examples of pictorials).
 
 You may submit either:
 
 - **Poster**: a *single-page* large-format poster (A1 size), or  
 - **Short pictorial**: a visual extended abstract of up to 4 pages (4x A3 pages, displayed together as an A1-sized poster onsite)
 
-Submissions can be in **PDF, PowerPoint, Word, or Adobe InDesign** format.
 
-> Templates are optional (coming soon). You may use your own layout as long as it meets the size/page requirements above.
+## Required information
 
-
-## Required Information
-
-All submissions (poster or pictorial) must explicitly include the following three elements:
+All submissions (poster or pictorial) must explicitly include (in the poster/pictorial itself) the following three elements:
 
 1. **Working definition of (co-)agency**  
    - How are you defining agency/co-agency in your context?
@@ -90,6 +86,17 @@ If you are using **third-party images as a key source** for your poster or picto
 Any research in submissions that involve human subjects must go through the appropriate ethics review requirements that apply to the authors’ research environment. As research environments vary considerably with regard to their requirements, authors are asked to submit a short note to reviewers that provides this context. Please also see the [2021 ACM Publications policy on research involving humans](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects) before submitting.
 
 
+### Submission format
+
+Submissions can be in **PDF, PowerPoint, Word, or Adobe InDesign** format.
+
+Please submit a PDF export as the main file (max 100MB). You can add original source files as supplementary material (max 250MB). We suggest that you keep reviewers in mind and experiment with lower resolution to make the submission file sizes considerably smaller than maximum limits.
+
+Posters should be 1x A1 size page and pictorials should be up to 4x A3 sized pages. References may be included on the back of posters / pictorials and can therefore extend to additional pages.
+
+> Templates are optional (coming soon). You may use your own layout as long as it meets the size/page requirements above.
+
+
 ### Where to submit
 Step 1. Create a Microsoft CMT account: [Registration](https://cmt3.research.microsoft.com/User/Login)  | [Instructions](https://cmt3.research.microsoft.com/docs/help/general/account-creation.html)
 
@@ -97,3 +104,7 @@ Step 2. Navigate to the workshop submission portal: [Link](https://cmt3.research
 
 Step 3. Create a new submission: [Instructions](https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html) (_please note that submissions are currently not enabled yet, coming soon_)
 
+
+### If you get stuck or have questions
+
+In the first instance, you may email `oxfordccai@cs.ox.ac.uk` and one of the lead chairs will aim to respond to your query as soon as possible. Closer to the conference, we will create a Discord server for the community.
