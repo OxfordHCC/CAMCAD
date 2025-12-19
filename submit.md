@@ -72,6 +72,12 @@ Because posters and pictorials are short formats, reviewers will not expect full
 
 After receiving review feedback, authors of accepted submissions will have a chance to make changes before submitting a final camera-ready version of their poster or pictorial.
 
+At least one author per accepted submission will be expected to register for the CHI conference and attend the CAMCAD workshop.
+
+Workshop submissions are non-archival. They will be shared on the workshop website. Workshop contributions will be summarised in a co-created report and all participants will be invited to be co-authors.
+
+We are planning to propose a special issue on child-AI interaction agency in an internationally recognised journal. The CAMCAD workshop could be a way for participants to get preliminary feedback on their projects and learn about related work, while the special issue (anticipated after the workshop) would be a venue to publish full research papers.
+
 
 ## Submission policies
 
