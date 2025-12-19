@@ -15,9 +15,9 @@ You may submit either:
 - **Short pictorial**: a visual extended abstract of up to 4 pages (4x A3 pages, displayed together as an A1-sized poster onsite)
 
 
-## Required information
+### Required information
 
-All submissions (poster or pictorial) must explicitly include (in the poster/pictorial itself) the following three elements:
+All submissions (poster or pictorial) must include the following three elements:
 
 1. **Working definition of (co-)agency**  
    - How are you defining agency/co-agency in your context?
@@ -29,13 +29,28 @@ All submissions (poster or pictorial) must explicitly include (in the poster/pic
 3. **Role of AI in the work**  
    - Describe what the AI system/application does and how it shapes the interaction, decisions, or collaboration.
 
-We encourage (where relevant) briefly stating:
+The submission form includes fields to describe these elements. They may optionally and additionally be included in the poster or pictorial itself.
+
+In the posters or pictorials, we encourage (where relevant) briefly stating:
 - Context of use (e.g., home/school/community)  
 - Collaboration structure (who makes decisions, who acts, who supports)  
-- What “meaningful” decision-making/action looks like in your setting  
+- What “meaningful” decision-making/action looks like in your setting
+
+
+### Submission format
+
+Submissions can be in **PDF, PowerPoint, Word, or Adobe InDesign** format.
+
+Please submit a PDF export as the main file (max 100MB). You can add original source files as supplementary material (max 250MB). We suggest that you keep reviewers in mind and experiment with lower resolution to make the submission file sizes considerably smaller than maximum limits.
+
+Posters should be 1x A1 size page and pictorials should be up to 4x A3 sized pages. They could be portrait or landscape. References may be included on the back of posters / pictorials and can therefore extend to additional pages.
+
+> Templates are optional (coming soon). You may use your own layout as long as it meets the size/page requirements above.
 
 
 ### Evaluation criteria
+
+Submissions will be reviewed by the workshop organisers and academic peers for relevance, originality, and potential to contribute to the discussion. If we receive a high number of submissions, applicants may be asked to review one or two peer submissions.
 
 Because posters and pictorials are short formats, reviewers will not expect full study details. Please include **just enough information** for reviewers to assess:
 
@@ -46,7 +61,18 @@ Because posters and pictorials are short formats, reviewers will not expect full
 - **Responsibility and ethics**, especially for work involving children/young people  
 
 
-### Anonymisation policy
+### Review process
+
+Workshop submissions will be triaged by the organising committee and either desk rejected if they do not meet the submission criteria or peer reviewed following a double-blind peer review process, with at least two reviews for each submission.
+
+There will be only one round of peer review and submissions will be either accepted or rejected.
+
+After receiving review feedback, authors of accepted submissions will have a chance to make changes before submitting a final camera-ready version of their poster or pictorial.
+
+
+## Submission policies
+
+### Anonymisation Policy
 
 We follow the **DIS anonymisation policy** (a relaxed version of the ACM CHI anonymisation policy).
 
@@ -86,18 +112,9 @@ If you are using **third-party images as a key source** for your poster or picto
 Any research in submissions that involve human subjects must go through the appropriate ethics review requirements that apply to the authors’ research environment. As research environments vary considerably with regard to their requirements, authors are asked to submit a short note to reviewers that provides this context. Please also see the [2021 ACM Publications policy on research involving humans](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects) before submitting.
 
 
-### Submission format
-
-Submissions can be in **PDF, PowerPoint, Word, or Adobe InDesign** format.
-
-Please submit a PDF export as the main file (max 100MB). You can add original source files as supplementary material (max 250MB). We suggest that you keep reviewers in mind and experiment with lower resolution to make the submission file sizes considerably smaller than maximum limits.
-
-Posters should be 1x A1 size page and pictorials should be up to 4x A3 sized pages. References may be included on the back of posters / pictorials and can therefore extend to additional pages.
-
-> Templates are optional (coming soon). You may use your own layout as long as it meets the size/page requirements above.
 
 
-### Where to submit
+## Where to submit
 Step 1. Create a Microsoft CMT account: [Registration](https://cmt3.research.microsoft.com/User/Login)  | [Instructions](https://cmt3.research.microsoft.com/docs/help/general/account-creation.html)
 
 Step 2. Navigate to the workshop submission portal: [Link](https://cmt3.research.microsoft.com/CAMCAD2026)
@@ -105,6 +122,6 @@ Step 2. Navigate to the workshop submission portal: [Link](https://cmt3.research
 Step 3. Create a new submission: [Instructions](https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html) (_please note that submissions are currently not enabled yet, coming soon_)
 
 
-### If you get stuck or have questions
+## If you have questions
 
-In the first instance, you may email `oxfordccai@cs.ox.ac.uk` and one of the lead chairs will aim to respond to your query as soon as possible. Closer to the conference, we will create a Discord server for the community.
+In the first instance, you may email `oxfordccai@cs.ox.ac.uk`. One of the lead chairs will aim to respond to your query as soon as possible. Closer to the conference, we will create a Discord server for the community.
