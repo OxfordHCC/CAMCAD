@@ -31,10 +31,36 @@ All submissions (poster or pictorial) must include the following three elements:
 
 The submission form includes fields to describe these elements. They may optionally and additionally be included in the poster or pictorial itself.
 
-In the posters or pictorials, we encourage (where relevant) briefly stating:
-- Context of use (e.g., home/school/community)  
-- Collaboration structure (who makes decisions, who acts, who supports)  
-- What “meaningful” decision-making/action looks like in your setting
+
+### Submission tips
+
+In the posters or pictorials, we encourage authors to include or consider (where relevant):
+
+Essential Content
+* Problem or objective: What you studied and why it matters
+* Approach: A brief, high-level explanation of methods or framework
+* Key findings: Prioritise visualisation over dense text
+* Takeaway message: What an attendee should remember
+
+Clarifying Content
+* Context of AI use (e.g., home/school/community)  
+* Collaboration structure (who makes decisions, who acts, who supports)  
+* What “meaningful” decision-making/action looks like in your setting
+
+Readability and Design
+* Font size: For posters, large enough to read from ~1-2 metres (title ~100 pt; text ≥28 pt); For pictorials, it can be smaller, but you will need a clear hook to attract attention
+* Layout: Use clear sections and logical flow
+* Colour: 2-3 colours maximum; ensure strong contrast for accessibility
+* Graphics: Use high-resolution figures; avoid clutter
+* White space: Leave ample margins so the poster is not visually dense
+
+Communicating Across Disciplines
+* Audience: Aim to make your poster accessible to non-specialists
+* Clarity: Use concise, straightforward language
+* Jargon: Minimise specialised terms and define them when necessary
+* Relevance: Highlight the broader significance of your work for audiences outside your discipline
+
+You may include links to external resources, but reviewers will not consider external content in the review process.
 
 
 ### Submission format
@@ -73,6 +99,11 @@ Because posters and pictorials are short formats, reviewers will not expect full
 After receiving review feedback, authors of accepted submissions will have a chance to make changes before submitting a final camera-ready version of their poster or pictorial.
 
 At least one author per accepted submission will be expected to register for the CHI conference and attend the CAMCAD workshop.
+
+If your submission is accepted, for the camera-ready version and the workshop itself, you may want to:
+* Prepare a short 1-2 minute overview of your project
+* Be ready to discuss your methods at different levels of technical detail
+* Consider adding a QR code to share supplementary materials
 
 Workshop submissions are non-archival. They will be shared on the workshop website. Workshop contributions will be summarised in a co-created report and all participants will be invited to be co-authors.
 
