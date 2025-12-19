@@ -41,11 +41,18 @@ In the posters or pictorials, we encourage (where relevant) briefly stating:
 
 Submissions can be in **PDF, PowerPoint, Word, or Adobe InDesign** format.
 
-Please submit a PDF export as the main file (max 100MB). You can add original source files as supplementary material (max 250MB). We suggest that you keep reviewers in mind and experiment with lower resolution to make the submission file sizes considerably smaller than maximum limits.
+Please submit a PDF export as the main submission file (max 100MB). You can add original source files as supplementary material (max 250MB; supplementary materials can be added from the author console after you complete the submission). We suggest that you keep reviewers in mind and experiment with lower resolution to make the submission file sizes considerably smaller than maximum limits.
 
 Posters should be 1x A1 size page and pictorials should be up to 4x A3 sized pages. They could be portrait or landscape. References may be included on the back of posters / pictorials and can therefore extend to additional pages.
 
 > Templates are optional (coming soon). You may use your own layout as long as it meets the size/page requirements above.
+
+
+### Review process
+
+Workshop submissions will be triaged by the organising committee and either desk rejected if they do not meet the submission criteria or peer reviewed following a double-blind peer review process, with at least two reviews for each submission.
+
+There will be only one round of peer review and submissions will be either accepted or rejected.
 
 
 ### Evaluation criteria
@@ -61,11 +68,7 @@ Because posters and pictorials are short formats, reviewers will not expect full
 - **Responsibility and ethics**, especially for work involving children/young people  
 
 
-### Review process
-
-Workshop submissions will be triaged by the organising committee and either desk rejected if they do not meet the submission criteria or peer reviewed following a double-blind peer review process, with at least two reviews for each submission.
-
-There will be only one round of peer review and submissions will be either accepted or rejected.
+### After the reviews
 
 After receiving review feedback, authors of accepted submissions will have a chance to make changes before submitting a final camera-ready version of their poster or pictorial.
 
