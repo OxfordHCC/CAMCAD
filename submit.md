@@ -122,7 +122,7 @@ Step 1. Create a Microsoft CMT account: [Registration](https://cmt3.research.mic
 
 Step 2. Navigate to the workshop submission portal: [Link](https://cmt3.research.microsoft.com/CAMCAD2026)
 
-Step 3. Create a new submission: [Instructions](https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html) (_please note that submissions are currently not enabled yet, coming soon_)
+Step 3. Create a new submission: [Instructions](https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html)
 
 
 ## If you have questions
