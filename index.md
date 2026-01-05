@@ -46,4 +46,6 @@ All times are the end of day in the Anywhere on Earth (AoE) time zone.
 
 The workshop is organised by the University of Oxford Child-Centred AI Design Lab team and colleagues from University College London, University of Oulu, Raspberry Pi Foundation, and University of Edinburgh.
 
+This work is supported by the UK Research and Innovation (UKRI) Cross Research Council Responsive Mode projects [CHAILD - Children's Agency In the age of AI: Leveraging InterDisciplinarity (MR/Z505882/1)](https://gtr.ukri.org/projects?ref=MR/Z505882/1) and [GRASPING DATA: Co-creating Physicalizations to Empower Young Children to Interact with, Understand, and Benefit from Their Personal Data (MR/Z505602/1)](https://gtr.ukri.org/projects?ref=MR/Z505602/1) and the Research Council of Finland funded project [Critical DataLit: Cultivating justice-oriented data literacies among GenZ (Grant \#354445)](https://research.fi/en/results/funding/78091).
+
 The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
