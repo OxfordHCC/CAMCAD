@@ -71,7 +71,12 @@ Please submit a PDF export as the main submission file (max 100MB). You can add 
 
 Posters should be 1x A1 size page and pictorials should be up to 4x A3 sized pages. They could be portrait or landscape. References may be included on the back of posters / pictorials and can therefore extend to additional pages.
 
-> Templates are optional (coming soon). You may use your own layout as long as it meets the size/page requirements above.
+> Optional templates can be found in the below links. These are just suggestions for inspiration, we have no affiliation with these external sites and do not endorse them. You may use your own layout as long as it meets the size/page requirements above.
+> * https://www.canva.com/posters/templates/research/
+> * https://www.posterpresentations.com/free-poster-templates.html
+> * https://www.freepik.com/search?format=search&last_filter=query&last_value=A1+research+poster&query=A1+research+poster&type=vector
+> * https://www.lboro.ac.uk/services/creative-print/print-post/poster-templates/
+> * https://www.genigraphics.com/templates
 
 
 ### Review process
