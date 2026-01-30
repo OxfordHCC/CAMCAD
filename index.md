@@ -32,15 +32,16 @@ Submissions will be reviewed by the workshop organisers and academic peers for r
 If we receive a high number of submissions, applicants may be asked to review one or two peer submissions.
 At least one author will be required to register for and attend the workshop for each accepted submission.
 
+The workshop will be followed up by a call for papers in a Special Issue on agency in child-AI interaction in the International Journal of Child-Computer Interaction (IJCCI).
+
 All research conducted with human participants must comply with the [ACM Publications Policy on Research Involving Human Participants and Subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects).
 
 ### Important Dates
-* Submissions Open: Thursday, December 18, 2025
-* Submission Deadline: Thursday, February 12, 2026
+* Submissions Open: Thursday, December 18, 2025 
+* Submission Deadline: Thursday, February 12, 2026 end of day Anywhere on Earth (AoE) time
 * Notification of Acceptance: TBC, at least one week prior to conference early bird registration deadline
 * CHI 2026 Conference: 13–17 April, 2026
-
-All times are the end of day in the Anywhere on Earth (AoE) time zone.
+  * CAMCAD Workshop: 14:15 - 18:00 (CEST) on Thursday 16 April, 2026
 
 ### Acknowledgments
 
