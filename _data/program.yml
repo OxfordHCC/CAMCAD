@@ -8,23 +8,23 @@ legend:
     - name: Activities
       color: teal-6
 days:
-  - name: "Session 1 (14:10 -- 15:40): whole group activities"
+  - name: "Session 1 (14:15 -- 15:45): whole group activities"
     events:
-      - time: 14:10 to 14:25
+      - time: 14:15 to 14:30
         title: Overview of themes from all accepted workshop submissions
         category: Presentations
         slides: /assets/files/slides.pdf
-      - time: 14:25 to 14:50
+      - time: 14:30 to 14:55
         title: Invited keynote talk and Q&A
         subtitle: The keynote speaker is to be confirmed
         category: Presentations
-      - time: 14:50 to 15:40
+      - time: 14:55 to 15:45
         title: Lightning presentations from participants and audience Q&A
         subtitle: The speaker lineup is to be confirmed
         category: Presentations
-  - name: "Break and Poster session (15:40 -- 16:20): refreshments and informal discussions over posters from submissions"
+  - name: "Break and Poster session (15:45 -- 16:30): refreshments and informal discussions over posters from submissions"
     events:
-      - time: 15:40 to 16:00
+      - time: 15:45 to 16:05
         title: Group A posters
         subtitle: "Half of the group will present their posters first, while the other half can enjoy refreshments and check out others' work"
         category: Posters
@@ -33,7 +33,7 @@ days:
           - /assets/files/poster-b.pdf
           - /assets/files/poster-c.pdf
         paper: /assets/files/paper-1.pdf
-      - time: 16:00 to 16:20
+      - time: 16:10 to 16:30
         title: Group B posters
         subtitle: "The groups will swap so those who presented their posters first can see others' work, while others can share theirs"
         category: Posters
@@ -42,17 +42,17 @@ days:
           - /assets/files/poster-b.pdf
           - /assets/files/poster-c.pdf
         paper: /assets/files/paper-1.pdf
-  - name: "Session 2 (16:20 -- 17:50): break-out group activities"
+  - name: "Session 2 (16:30 -- 18:00): break-out group activities"
     events:
-      - time: 16:20 to 16:50
+      - time: 16:30 to 17:00
         title: Group task on translating research insights about co-agency to implications for practice
         category: Activities
-      - time: 16:50 to 17:20
+      - time: 17:00 to 17:30
         title: Group rotation and peer feedback
         category: Activities
-      - time: 17:20 to 17:40
+      - time: 17:30 to 17:50
         title: Whole group review of results, sharing ideas, documenting outputs
         category: Activities
-      - time: 17:40 to 17:50
+      - time: 17:50 to 18:00
         subtitle: Workshop recap and next steps
         category: Presentations
