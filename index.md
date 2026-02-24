@@ -5,7 +5,7 @@ description: Child-Centred AI-Mediated Collaborative Agency by Design workshop a
 
 ## Call for proposals
 
-The Child-Centred AI-Mediated Collaborative Agency by Design (CAMCAD) at CHI 2026 workshop organisers invite researchers, designers, educators, and practitioners for an afternoon of sharing and exploration of how AI applications could be designed to support children and young people in making informed decisions and enacting them meaningfully.
+The [Child-Centred AI-Mediated Collaborative Agency by Design (CAMCAD)](https://chi2026.acm.org/workshops/accepted/#w12-childcentred-aimediated-collaborative-agency-by-design) at [CHI 2026](https://chi2026.acm.org/) workshop organisers invite researchers, designers, educators, and practitioners for an afternoon of sharing and exploration of how AI applications could be designed to support children and young people in making informed decisions and enacting them meaningfully.
 
 This workshop builds on previous Child-Centred AI workshops at CHI 2023 and 2024. This year's theme is _collaborative agency_. Through this lens, we are interested in how children and young people can be supported in making and acting on decisions not just as individuals, but in collaboration with others, such as peers, teachers, and parents.
 
@@ -39,8 +39,8 @@ All research conducted with human participants must comply with the [ACM Publica
 ### Important Dates
 * Submissions Open: Thursday, December 18, 2025 
 * Submission Deadline: ~~Thursday, February 12, 2026~~ <span class="bg-yellow-1">Monday, February 16, 2026</span> end of day Anywhere on Earth (AoE) time
-* Notification of Acceptance: Thursday, February 25, 2026 (one week prior to CHI early bird registration deadline)
-* CHI 2026 Conference: 13–17 April, 2026
+* Notification of Acceptance: Wednesday, February 25, 2026 (one week prior to CHI early bird registration deadline)
+* CHI 2026 Conference: Monday-Friday, 13–17 April, 2026
   * CAMCAD Workshop: 14:15 - 18:00 (CEST) on Thursday 16 April, 2026
 
 ### Acknowledgments
