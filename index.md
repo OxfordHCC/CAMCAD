@@ -37,11 +37,12 @@ The workshop will be followed up by a call for papers in a Special Issue on agen
 All research conducted with human participants must comply with the [ACM Publications Policy on Research Involving Human Participants and Subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects).
 
 ### Important Dates
-* Submissions Open: Thursday, December 18, 2025 
-* Submission Deadline: ~~Thursday, February 12, 2026~~ <span class="bg-yellow-1">Monday, February 16, 2026</span> end of day Anywhere on Earth (AoE) time
-* Notification of Acceptance: Wednesday, February 25, 2026 (one week prior to CHI early bird registration deadline)
-* CHI 2026 Conference: Monday-Friday, 13–17 April, 2026
-  * CAMCAD Workshop: 14:15 - 18:00 (CEST) on Thursday 16 April, 2026
+* ~~Thursday, December 18, 2025~~: Submissions Open
+* ~~Thursday, February 12, 2026 [extended to <span class="bg-yellow-1">Monday, February 16, 2026</span>] end of day Anywhere on Earth (AoE) time~~: Submission Deadline
+* ~~Wednesday, February 25, 2026~~: Author Notifications (one week prior to CHI early bird registration deadline)
+* Wednesday, March 17, 2026 end of day Anywhere on Earth (AoE) time: Camera-ready Submission Deadline
+* Monday-Friday, 13–17 April, 2026: CHI 2026 Conference
+  * Thursday 16 April, 2026; 14:15 - 18:00 (CEST): CAMCAD Workshop
 
 ### Acknowledgments
 
