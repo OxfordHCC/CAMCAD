@@ -40,7 +40,7 @@ All research conducted with human participants must comply with the [ACM Publica
 * ~~Thursday, December 18, 2025~~: Submissions Open
 * ~~Thursday, February 12, 2026 [extended to <span class="bg-yellow-1">Monday, February 16, 2026</span>] end of day Anywhere on Earth (AoE) time~~: Submission Deadline
 * ~~Wednesday, February 25, 2026~~: Author Notifications (one week prior to CHI early bird registration deadline)
-* Wednesday, March 17, 2026 end of day Anywhere on Earth (AoE) time: Camera-ready Submission Deadline
+* ~~Wednesday, March 17, 2026 end of day Anywhere on Earth (AoE) time~~: Camera-ready Submission Deadline
 * Monday-Friday, 13–17 April, 2026: CHI 2026 Conference
   * Thursday 16 April, 2026; 14:15 - 18:00 (CEST): CAMCAD Workshop
 
