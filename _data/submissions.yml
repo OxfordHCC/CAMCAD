@@ -4,6 +4,7 @@
   corresponding_author: "Keyu Mao"
   corresponding_email: "wennieyu07@outlook.com"
   file: "/assets/submissions/3%20Li%20et%20al%20-%20Appearance..Robots.pdf"
+  license: "CC BY"
 
 - id: 4
   title: "Repositioning AI as a Thinking Partner in Child–AI Collaboration: Interview-grounded insights for role-differentiated child–AI collaboration"
@@ -11,6 +12,7 @@
   corresponding_author: "Sohyun Park"
   corresponding_email: "sohyunpark@kaist.ac.kr"
   file: "/assets/submissions/4%20Park%20and%20Lee%20-%20Repositioning..Collaboration.pdf"
+  license: "CC BY"
 
 - id: 5
   title: "AI-Mediated Scaffolding for Student Agency and Peer Collaboration"
@@ -18,6 +20,7 @@
   corresponding_author: "Khadija El Aadmi-Laamech"
   corresponding_email: "khadija.elaadmi@upf.edu"
   file: "/assets/submissions/5%20Aadmi-Laamech%20et%20al%20-%20AI..Collaboration.pdf"
+  license: "CC BY-NC-SA"
 
 - id: 6
   title: "Young People Co-Agency in a Virtual Heritage VR Escape Room with AI Agents for Sustainable Fashion Learning"
@@ -25,6 +28,7 @@
   corresponding_author: "Diana Hernandez Manzo"
   corresponding_email: "d.hernandez-manzo@rgu.ac.uk"
   file: "/assets/submissions/6%20Hernandez%20-%20Young..Learning.pdf"
+  license: "CC BY"
 
 - id: 7
   title: "Enacting Collaborative Agency through Critical AI Literacy: A Community-Based Program with Black and Brown Middle School Girls and Their Families"
@@ -32,6 +36,7 @@
   corresponding_author: "Hawra Rabaan"
   corresponding_email: "hrabaan@umd.edu"
   file: "/assets/submissions/7%20Rabaan%20and%20Erete%20-%20Enacting..Families.pdf"
+  license: "CC BY"
 
 - id: 8
   title: "Gather to Glow: Designing an Autonomy-Supportive Game for Parent–Child Digital Co-Play"
@@ -39,6 +44,7 @@
   corresponding_author: "Jianing Wang"
   corresponding_email: "jianingwang1@link.cuhk.edu.cn"
   file: "/assets/submissions/8%20Wang%20et%20al%20-%20Gather..Co-Play.pdf"
+  license: "CC BY-NC-ND"
 
 - id: 9
   title: "AI as a Partner for Children's Bouldering"
@@ -46,6 +52,7 @@
   corresponding_author: "Giuseppe Sanseverino"
   corresponding_email: "giuseppe.sanseverino@phil.tu-chemnitz.de"
   file: "/assets/submissions/9%20Sanseverino%20et%20al%20-%20AI..Bouldering.pdf"
+  license: "CC BY-SA"
 
 - id: 10
   title: "Toddlers and Emotion: A TUI for Emotional Communication"
@@ -53,6 +60,7 @@
   corresponding_author: "Silvia Ferrando"
   corresponding_email: "silferr96@gmail.com"
   file: "/assets/submissions/10%20Ferrando%20and%20Ceccaldi%20-%20Toddlers..Communication.pdf"
+  license: "CC BY"
 
 - id: 11
   title: "It's a Scam: On Being Truthful when Involving Children in Robotics Research"
@@ -60,12 +68,14 @@
   corresponding_author: "Ylva Fernaeus"
   corresponding_email: "ylva.fernaeus@umu.se"
   file: "/assets/submissions/11%20Fernaeus%20et%20al%20-%20Scam..Research.pdf"
+  license: "CC BY-NC"
 
 - id: 12
   title: "Reimagining AI-Enabled Child Online Safety: From Control to Co-Agency"
   authors: "Mennatullah Hendawy, Magy Seif el Nasr"
   corresponding_author: "Mennatullah Hendawy"
   corresponding_email: "mhendawy@ucsc.edu"
+  license: "ARR"
 
 - id: 13
   title: "Learning through Conversation Games with AI and a Robot"
@@ -73,6 +83,7 @@
   corresponding_author: "Nora Hille"
   corresponding_email: "nora.hille@uni-siegen.de"
   file: "/assets/submissions/13%20Hille%20-%20Learning..Robot.pdf"
+  license: "CC BY"
 
 - id: 14
   title: "Children's Perception on LLM-driven Voice User Interfaces"
@@ -80,6 +91,7 @@
   corresponding_author: "Christina Detsika"
   corresponding_email: "detsika@cs.uni-bonn.de"
   file: "/assets/submissions/14%20Detsika%20et%20al%20-%20Childrens..Interfaces.pdf"
+  license: "CC BY"
 
 - id: 15
   title: "Designing Minds in Dialogue: Conversational AI as a Scaffold for Children's Cognitive Agency"
@@ -87,6 +99,7 @@
   corresponding_author: "Nomisha Kurian"
   corresponding_email: "nomisha-chandran.kurian@warwick.ac.uk"
   file: "/assets/submissions/15%20Kurian%20-%20Designing..Agency.pdf"
+  license: "CC BY"
 
 - id: 16
   title: "Algorithmic Mirror: Helping Adolescents See and Shape Their Algorithmic Selves"
@@ -94,3 +107,4 @@
   corresponding_author: "Yui Kondo"
   corresponding_email: "yuikondobook@gmail.com"
   file: "/assets/submissions/16%20Kondo%20et%20al%20-%20Algorithmic..Selves.pdf"
+  license: "CC BY-NC-SA"

@@ -27,6 +27,23 @@ layout: default
                     <div class="card-body">
                         <p class="fw-semibold mb-1">{{ submission.title }}</p>
                         <p class="text-muted small mb-0">{% assign author_list = submission.authors | split: ", " %}{% for author in author_list %}{% unless forloop.first %}, {% endunless %}{% if author == submission.corresponding_author %}<a href="mailto:{{ submission.corresponding_email }}">{{ author }}</a>*{% else %}{{ author }}{% endif %}{% endfor %}</p>
+                        {% if submission.license %}
+                        <p class="mt-2 mb-0">
+                            {% if submission.license == "ARR" %}
+                            <span class="text-muted small">© All rights reserved</span>
+                            {% else %}
+                            {% if submission.license == "CC BY" %}{% assign license_url = "https://creativecommons.org/licenses/by/4.0/" %}{% endif %}
+                            {% if submission.license == "CC BY-SA" %}{% assign license_url = "https://creativecommons.org/licenses/by-sa/4.0/" %}{% endif %}
+                            {% if submission.license == "CC BY-NC" %}{% assign license_url = "https://creativecommons.org/licenses/by-nc/4.0/" %}{% endif %}
+                            {% if submission.license == "CC BY-NC-SA" %}{% assign license_url = "https://creativecommons.org/licenses/by-nc-sa/4.0/" %}{% endif %}
+                            {% if submission.license == "CC BY-NC-ND" %}{% assign license_url = "https://creativecommons.org/licenses/by-nc-nd/4.0/" %}{% endif %}
+                            {% assign license_components = submission.license | remove: "CC " | split: "-" %}
+                            <a href="{{ license_url }}" target="_blank" rel="noopener license" title="{{ submission.license }} 4.0 International" class="text-muted small text-decoration-none d-inline-flex align-items-center gap-1">
+                                <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" width="18" height="18">{% for part in license_components %}<img src="https://mirrors.creativecommons.org/presskit/icons/{{ part | downcase }}.svg" alt="{{ part }}" width="18" height="18">{% endfor %}<span>{{ submission.license }} 4.0</span>
+                            </a>
+                            {% endif %}
+                        </p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
