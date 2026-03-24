@@ -56,16 +56,18 @@ document.querySelectorAll('.pdf-thumbnail').forEach(function(canvas) {
     pdfjsLib.getDocument(url).promise
         .then(function(pdf) { return pdf.getPage(1); })
         .then(function(page) {
-            // Scale to fill the target width, then crop height
+            // Cover scaling: scale so the PDF fills THUMB_W × THUMB_H, then centre-crop
             var natural = page.getViewport({ scale: 1 });
-            var scale = THUMB_W / natural.width;
+            var scale = Math.max(THUMB_W / natural.width, THUMB_H / natural.height);
             var viewport = page.getViewport({ scale: scale });
+            var srcX = (viewport.width  - THUMB_W) / 2;
+            var srcY = (viewport.height - THUMB_H) / 2;
             var offscreen = document.createElement('canvas');
-            offscreen.width = viewport.width;
+            offscreen.width  = viewport.width;
             offscreen.height = viewport.height;
             return page.render({ canvasContext: offscreen.getContext('2d'), viewport: viewport }).promise
                 .then(function() {
-                    canvas.getContext('2d').drawImage(offscreen, 0, 0, THUMB_W, THUMB_H, 0, 0, THUMB_W, THUMB_H);
+                    canvas.getContext('2d').drawImage(offscreen, srcX, srcY, THUMB_W, THUMB_H, 0, 0, THUMB_W, THUMB_H);
                 });
         })
         .catch(function() { canvas.style.display = 'none'; });
