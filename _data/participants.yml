@@ -47,44 +47,102 @@ groups:
     sort: true
     columns: true
     members:
-      - name: Pygoscelis
-        surname: Adeliae
-      - name: Pygoscelis
-        surname: Antarcticus
-        email: chinstrap@pengu.in
-      - name: Eudyptula
-        surname: Minor
-        email: little@pengu.in
-      - name: Spheniscus
-        surname: Mendiculus
-      - name: Spheniscus
-        surname: Humboldti
-        email: humboldt@pengu.in
-      - name: Spheniscus
-        surname: Magellanicus
-        email: magellanic@pengu.in
-      - name: Spheniscus
-        surname: Demersus
-        email: african@pengu.in
-      - name: Megadyptes
-        surname: Antipodes
-        email: yellow-eyed@pengu.in
-      - name: Eudyptes
-        surname: Chrysolophus
-      - name: Eudyptes
-        surname: Schlegeli
-        email: royal@pengu.in
-      - name: Eudyptes
-        surname: Moseleyi
-        email: northern-rockhopperi@pengu.in
-      - name: Eudyptes
-        surname: Chrysocome
-        email: southern-rockhopper@pengu.in
-      - name: Eudyptes
-        surname: Pachyrhynchus
-        email: fiordland@pengu.in
-      - name: Eudyptes
-        surname: Robustus
-        email: snares@pengu.in
-      - name: Eudyptes
-        surname: Sclateri
+      - name: Jianing
+        surname: Wang
+        affil: Chinese University of Hong Kong, Shenzhen
+      - name: Sohyun
+        surname: Park
+        affil: KAIST
+      - name: Khadija
+        surname: El Aadmi-Laamech
+        affil: Universitat Pompeu Fabra
+      - name: Diana Sarai
+        surname: Hernandez Manzo
+        affil: Robert Gordon University
+      - name: Hawra
+        surname: Rabaan
+        affil: University of Maryland
+      - name: Giuseppe
+        surname: Sanseverino
+        affil: TU Chemnitz
+      - name: Silvia
+        surname: Ferrando
+        affil: University of Genoa
+      - name: Ylva
+        surname: Fernaeus
+        affil: Umeå Institute of Design & KTH
+      - name: Magy
+        surname: Seif el Nasr
+        affil: University of California Santa Cruz
+      - name: Nora
+        surname: Hille
+        affil: Universität Siegen
+      - name: Christina
+        surname: Detsika
+        affil: Fraunhofer FKIE
+      - name: Nomisha
+        surname: Kurian
+        affil: University of Warwick
+      - name: Yui
+        surname: Kondo
+        affil: University of Oxford
+  - title: Corresponding authors
+    sort: true
+    columns: true
+    members:
+      - name: Keyu
+        surname: Mao
+        affil: Zhejiang Normal University
+        email: wennieyu07@outlook.com
+      - name: Sohyun
+        surname: Park
+        affil: KAIST
+        email: sohyunpark@kaist.ac.kr
+      - name: Khadija
+        surname: El Aadmi-Laamech
+        affil: Universitat Pompeu Fabra
+        email: khadija.elaadmi@upf.edu
+      - name: Diana Sarai
+        surname: Hernandez Manzo
+        affil: Robert Gordon University
+        email: d.hernandez-manzo@rgu.ac.uk
+      - name: Hawra
+        surname: Rabaan
+        affil: University of Maryland
+        email: hrabaan@umd.edu
+      - name: Jianing
+        surname: Wang
+        affil: Chinese University of Hong Kong, Shenzhen
+        email: jianingwang1@link.cuhk.edu.cn
+      - name: Giuseppe
+        surname: Sanseverino
+        affil: TU Chemnitz
+        email: giuseppe.sanseverino@phil.tu-chemnitz.de
+      - name: Silvia
+        surname: Ferrando
+        affil: University of Genoa
+        email: silferr96@gmail.com
+      - name: Ylva
+        surname: Fernaeus
+        affil: Umeå Institute of Design & KTH
+        email: ylva.fernaeus@umu.se
+      - name: Mennatullah
+        surname: Hendawy
+        affil: University of California Santa Cruz
+        email: mhendawy@ucsc.edu
+      - name: Nora
+        surname: Hille
+        affil: Universität Siegen
+        email: nora.hille@uni-siegen.de
+      - name: Christina
+        surname: Detsika
+        affil: Fraunhofer FKIE
+        email: detsika@cs.uni-bonn.de
+      - name: Nomisha
+        surname: Kurian
+        affil: University of Warwick
+        email: nomisha-chandran.kurian@warwick.ac.uk
+      - name: Yui
+        surname: Kondo
+        affil: University of Oxford
+        email: yuikondobook@gmail.com
