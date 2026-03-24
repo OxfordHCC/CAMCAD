@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{% include metadata.liquid %}
+{% include header.html %}
+
+<main class="my-4">
+    <div class="container">
+        <h1 class="display-5">{{ title }}</h1>
+        {{ content }}
+        <hr class="my-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            {% for submission in site.data.submissions %}
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    {% if submission.file %}
+                    <a href="{{ submission.file | relative_url }}" target="_blank" rel="noopener">
+                        <canvas class="card-img-top pdf-thumbnail"
+                                data-pdf="{{ submission.file | relative_url }}"
+                                style="width:100%;display:block;background:#f8f9fa"></canvas>
+                    </a>
+                    {% else %}
+                    <div class="d-flex align-items-center justify-content-center bg-light pdf-placeholder"
+                         style="font-size:4rem;">&#128196;</div>
+                    {% endif %}
+                    <div class="card-body">
+                        <p class="fw-semibold mb-1">{{ submission.title }}</p>
+                        <p class="text-muted small mb-0">{% assign author_list = submission.authors | split: ", " %}{% for author in author_list %}{% unless forloop.first %}, {% endunless %}{% if author == submission.corresponding_author %}<a href="mailto:{{ submission.corresponding_email }}">{{ author }}</a>*{% else %}{{ author }}{% endif %}{% endfor %}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+    'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+var THUMB_W = 600;
+var THUMB_H = 480;
+
+// Set placeholder height to match thumbnails
+document.querySelectorAll('.pdf-placeholder').forEach(function(el) {
+    el.style.height = (THUMB_H / THUMB_W * 100) + '%';
+    el.style.aspectRatio = THUMB_W + '/' + THUMB_H;
+});
+
+document.querySelectorAll('.pdf-thumbnail').forEach(function(canvas) {
+    canvas.width = THUMB_W;
+    canvas.height = THUMB_H;
+    var url = canvas.dataset.pdf;
+    pdfjsLib.getDocument(url).promise
+        .then(function(pdf) { return pdf.getPage(1); })
+        .then(function(page) {
+            // Scale to fill the target width, then crop height
+            var natural = page.getViewport({ scale: 1 });
+            var scale = THUMB_W / natural.width;
+            var viewport = page.getViewport({ scale: scale });
+            var offscreen = document.createElement('canvas');
+            offscreen.width = viewport.width;
+            offscreen.height = viewport.height;
+            return page.render({ canvasContext: offscreen.getContext('2d'), viewport: viewport }).promise
+                .then(function() {
+                    canvas.getContext('2d').drawImage(offscreen, 0, 0, THUMB_W, THUMB_H, 0, 0, THUMB_W, THUMB_H);
+                });
+        })
+        .catch(function() { canvas.style.display = 'none'; });
+});
+</script>
+
+{% include footer.html %}

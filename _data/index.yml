@@ -1,6 +1,6 @@
 alerts:
-  - title: "Hello!"
-    text: "Camera ready submissions are due by end of day, Wednesday, 17 March (AoE)! See the 'Submit' tab in the top navigation bar for instructions"
+  - title: "Workshop submissions are now available!"
+    text: "Camera-ready posters and pictorials from all accepted submissions are online. <a href='/CAMCAD/submissions/'>View submissions →</a>"
 logo:
   url: "assets/img/CAMCAD_logo.svg"
   alt: "Logo depicting an adult hand and child hand putting puzzle pieces together"

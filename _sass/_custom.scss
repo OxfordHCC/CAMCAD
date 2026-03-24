@@ -11,3 +11,15 @@
     margin-bottom: 0;
   }
 }
+
+.nav-link-submissions {
+  background-color: var(--oc-blue-1);
+  border-radius: 0.25rem;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+  font-weight: 500;
+
+  &:hover, &:focus {
+    background-color: var(--oc-blue-2);
+  }
+}

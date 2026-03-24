@@ -29,19 +29,24 @@ days:
         subtitle: "Half of the group will present their posters first, while the other half can enjoy refreshments and check out others' work"
         category: Posters
         poster:
-          - /assets/files/poster-a.pdf
-          - /assets/files/poster-b.pdf
-          - /assets/files/poster-c.pdf
-        paper: /assets/files/paper-1.pdf
+          - /assets/submissions/3%20Li%20et%20al%20-%20Appearance..Robots.pdf
+          - /assets/submissions/4%20Park%20and%20Lee%20-%20Repositioning..Collaboration.pdf
+          - /assets/submissions/5%20Aadmi-Laamech%20et%20al%20-%20AI..Collaboration.pdf
+          - /assets/submissions/6%20Hernandez%20-%20Young..Learning.pdf
+          - /assets/submissions/7%20Rabaan%20and%20Erete%20-%20Enacting..Families.pdf
+          - /assets/submissions/8%20Wang%20et%20al%20-%20Gather..Co-Play.pdf
+          - /assets/submissions/9%20Sanseverino%20et%20al%20-%20AI..Bouldering.pdf
       - time: 16:10 to 16:30
         title: Group B posters
         subtitle: "The groups will swap so those who presented their posters first can see others' work, while others can share theirs"
         category: Posters
         poster:
-          - /assets/files/poster-a.pdf
-          - /assets/files/poster-b.pdf
-          - /assets/files/poster-c.pdf
-        paper: /assets/files/paper-1.pdf
+          - /assets/submissions/10%20Ferrando%20and%20Ceccaldi%20-%20Toddlers..Communication.pdf
+          - /assets/submissions/11%20Fernaeus%20et%20al%20-%20Scam..Research.pdf
+          - /assets/submissions/13%20Hille%20-%20Learning..Robot.pdf
+          - /assets/submissions/14%20Detsika%20et%20al%20-%20Childrens..Interfaces.pdf
+          - /assets/submissions/15%20Kurian%20-%20Designing..Agency.pdf
+          - /assets/submissions/16%20Kondo%20et%20al%20-%20Algorithmic..Selves.pdf
   - name: "Session 2 (16:30 -- 18:00): break-out group activities"
     events:
       - time: 16:30 to 17:00
