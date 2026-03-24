@@ -5,6 +5,32 @@ description: Submission instructions and links
 navorder: 4
 ---
 
+## Topics of Interest
+
+We welcome submissions that address, but are not limited to, the following themes:
+* Models and theories that help understand child-centred co-agency.
+* Methods for researching and designing for child-centred co-agency.
+* Interaction design case studies that demonstrate novel technologies for collaborative learning, play, or communication.
+* Empirical studies of co-agency in AI-mediated interactions.
+* Evaluation studies of systems designed to support co-agency.
+* Ethical and critical perspectives on designing for intergenerational child-centred collaboration.
+* Research tools, policy frameworks, or design principles to support child-centred co-agency.
+
+## Author Guidelines
+
+We invite applicants to submit posters (large single page) or short pictorials (visual extended abstracts up to 4 pages; see [DIS 2026](https://dis.acm.org/2026/pictorials/) and [IDC 2026](https://idc.acm.org/2026/calls/pictorials/) pages for an explanation and examples of pictorials).
+
+This workshop is suitable for work-in-progress research, speculative ideas, position statements, short case studies, and highlights from completed research. Accepted submissions will be showcased in a poster session at the workshop and will be shared on the conference website.
+
+Submissions will be reviewed by the workshop organisers and academic peers for relevance, originality, and potential to contribute to the discussion.
+If we receive a high number of submissions, applicants may be asked to review one or two peer submissions.
+At least one author will be required to register for and attend the workshop for each accepted submission.
+
+The workshop will be followed up by a call for papers in a Special Issue in the International Journal of Child-Computer Interaction (IJCCI): [Agency in Child-AI Interaction](https://www.sciencedirect.com/special-issue/331176/agency-in-child-ai-interaction).
+
+All research conducted with human participants must comply with the [ACM Publications Policy on Research Involving Human Participants and Subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects).
+
+
 ## Submission guidelines
 
 We invite applicants to submit posters or short pictorials (see [DIS 2026](https://dis.acm.org/2026/pictorials/) and [IDC 2026](https://idc.acm.org/2026/calls/pictorials/) pages for an explanation and examples of pictorials).
@@ -169,4 +195,4 @@ Step 3. Create a new submission: [Instructions](https://cmt3.research.microsoft.
 
 ## If you have questions
 
-In the first instance, you may email `oxfordccai@cs.ox.ac.uk`. One of the lead chairs will aim to respond to your query as soon as possible. Closer to the conference, we will create a Discord server for the community.
+In the first instance, you may email `oxfordccai@cs.ox.ac.uk`. One of the lead chairs will aim to respond to your query as soon as possible. You are also welcome to join our [Discord server](https://discord.gg/6kuHZdetEJ) for community updates.
