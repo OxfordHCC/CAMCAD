@@ -13,14 +13,14 @@ days:
       - time: 14:15 to 14:30
         title: Overview of themes from all accepted workshop submissions
         category: Presentations
-        slides: /assets/files/slides.pdf
+        slides: /assets/files/CAMCAD%20workshop%20intro.pdf
       - time: 14:30 to 14:55
         title: Invited keynote talk and Q&A
-        subtitle: The keynote speaker is to be confirmed
+        subtitle: Our keynote speaker is Professor [Netta Iivari](https://www.oulu.fi/en/researchers/netta-iivari)
         category: Presentations
       - time: 14:55 to 15:45
         title: Lightning presentations from participants and audience Q&A
-        subtitle: The speaker lineup is to be confirmed
+        subtitle: Invited speakers: Hawra Rabaan (University of Maryland), Nomisha Chandran Kurian (University of Warwick), Diana Sarai Hernandez Manzo (Robert Gordon University), Keyu Mao (Zhejiang Normal University), Mennatullah Hendawy (University of California Santa Cruz), Yui Kondo (University of Oxford) 
         category: Presentations
   - name: "Break and Poster session (15:45 -- 16:30): refreshments and informal discussions over posters from submissions"
     events:
@@ -59,5 +59,5 @@ days:
         title: Whole group review of results, sharing ideas, documenting outputs
         category: Activities
       - time: 17:50 to 18:00
-        subtitle: Workshop recap and next steps
+        title: Workshop recap and next steps
         category: Presentations
