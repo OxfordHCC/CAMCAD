@@ -11,12 +11,12 @@ days:
   - name: "Session 1 (14:15 -- 15:45): whole group activities"
     events:
       - time: 14:15 to 14:30
-        title: Overview of themes from all accepted workshop submissions
+        title: "Overview of themes from all accepted workshop submissions"
         category: Presentations
         slides: /assets/files/CAMCAD%20workshop%20intro.pdf
       - time: 14:30 to 14:55
         title: "Invited keynote talk \"Fostering transformative agency of children in the age of AI\" and Q&A"
-        subtitle: Keynote speaker: Professor Netta Iivari (University of Oulu)
+        subtitle: "Keynote speaker: Professor Netta Iivari (University of Oulu)"
         category: Presentations
       - time: 14:55 to 15:45
         title: "Lightning presentations from participants and audience Q&A"
@@ -25,7 +25,7 @@ days:
   - name: "Break and Poster session (15:45 -- 16:30): refreshments and informal discussions over posters from submissions"
     events:
       - time: 15:45 to 16:05
-        title: Group A posters
+        title: "Group A posters"
         subtitle: "Half of the group will present their posters first, while the other half can enjoy refreshments and check out others' work"
         category: Posters
         poster:
@@ -37,7 +37,7 @@ days:
           - /assets/submissions/8%20Wang%20et%20al%20-%20Gather..Co-Play.pdf
           - /assets/submissions/9%20Sanseverino%20et%20al%20-%20AI..Bouldering.pdf
       - time: 16:10 to 16:30
-        title: Group B posters
+        title: "Group B posters"
         subtitle: "The groups will swap so those who presented their posters first can see others' work, while others can share theirs"
         category: Posters
         poster:
@@ -50,14 +50,14 @@ days:
   - name: "Session 2 (16:30 -- 18:00): break-out group activities"
     events:
       - time: 16:30 to 17:00
-        title: Group task on translating research insights about co-agency to implications for practice
+        title: "Group task on translating research insights about co-agency to implications for practice"
         category: Activities
       - time: 17:00 to 17:30
-        title: Group rotation and peer feedback
+        title: "Group rotation and peer feedback"
         category: Activities
       - time: 17:30 to 17:50
-        title: Whole group review of results, sharing ideas, documenting outputs
+        title: "Whole group review of results, sharing ideas, documenting outputs"
         category: Activities
       - time: 17:50 to 18:00
-        title: Workshop recap and next steps
+        title: "Workshop recap and next steps"
         category: Presentations
