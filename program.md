@@ -11,7 +11,7 @@ The workshop schedule is available below.
 
 All activity times are in Central European Standard Time (CEST).
 
-The CHI 2026 programme listing for our session is available at: <https://programs.sigchi.org/chi/2026/program/session/214971>
+The CHI 2026 programme listing for our session is available at: <https://programs.sigchi.org/chi/2026/program/content/214876>
 
 **Posters and pictorials** will be displayed on reserved poster boards in the shared conference centre space during the first session (14:15–15:45) and the break (15:46–16:30). Posters cannot be hung on the walls.
 
