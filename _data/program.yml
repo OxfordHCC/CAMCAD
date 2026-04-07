@@ -15,8 +15,8 @@ days:
         category: Presentations
         slides: /assets/files/CAMCAD%20workshop%20intro.pdf
       - time: 14:30 to 14:55
-        title: Invited keynote talk and Q&A
-        subtitle: Our keynote speaker is Professor Netta Iivari (University of Oulu)
+        title: "Invited keynote talk \"Fostering transformative agency of children in the age of AI\" and Q&A"
+        subtitle: Keynote speaker: Professor Netta Iivari (University of Oulu)
         category: Presentations
       - time: 14:55 to 15:45
         title: "Lightning presentations from participants and audience Q&A"
