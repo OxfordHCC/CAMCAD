@@ -5,6 +5,8 @@ description: Submission instructions and links
 navorder: 4
 ---
 
+**The CAMCAD workshop has now taken place. Submissions are closed.**
+
 ## Topics of Interest
 
 We welcome submissions that address, but are not limited to, the following themes:
