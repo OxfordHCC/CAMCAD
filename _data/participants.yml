@@ -43,6 +43,28 @@ groups:
         surname: Zhao
         email: jun.zhao@cs.ox.ac.uk
         affil: University of Oxford
+  - title: Presenters
+    sort: false
+    columns: true
+    members:
+      - name: Netta
+        surname: Iivari
+        affil: University of Oulu
+      - name: Hawra
+        surname: Rabaan
+        affil: University of Maryland
+      - name: Diana Sarai
+        surname: Hernandez Manzo
+        affil: Robert Gordon University
+      - name: Mennatullah
+        surname: Hendawy
+        affil: University of California Santa Cruz
+      - name: Keyu
+        surname: Mao
+        affil: Zhejiang Normal University
+      - name: Yui
+        surname: Kondo
+        affil: University of Oxford
   - title: Participants
     sort: true
     columns: true
@@ -56,12 +78,6 @@ groups:
       - name: Khadija
         surname: El Aadmi-Laamech
         affil: Universitat Pompeu Fabra
-      - name: Diana Sarai
-        surname: Hernandez Manzo
-        affil: Robert Gordon University
-      - name: Hawra
-        surname: Rabaan
-        affil: University of Maryland
       - name: Giuseppe
         surname: Sanseverino
         affil: TU Chemnitz
@@ -71,9 +87,9 @@ groups:
       - name: Ylva
         surname: Fernaeus
         affil: Umeå Institute of Design & KTH
-      - name: Magy
-        surname: Seif el Nasr
-        affil: University of California Santa Cruz
+      - name: Martin
+        surname: Jonsson
+        affil: Södertörn University
       - name: Nora
         surname: Hille
         affil: Universität Siegen
@@ -83,6 +99,4 @@ groups:
       - name: Nomisha
         surname: Kurian
         affil: University of Warwick
-      - name: Yui
-        surname: Kondo
-        affil: University of Oxford
+  

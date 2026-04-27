@@ -1,9 +1,10 @@
 {
   "permissions": {
     "allow": [],
-    "deny": [
-      "Read(_data/**)"
-    ],
-    "ask": []
+    "deny": [],
+    "ask": [
+      "Read(_data/**)",
+      "Write(_data/**)"
+    ]
   }
 }
