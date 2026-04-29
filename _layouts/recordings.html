@@ -27,7 +27,7 @@ layout: default
                     <div class="ratio ratio-16x9 bg-light d-flex align-items-center justify-content-center text-center p-3" style="position:relative;">
                         <div style="position:absolute;inset:0;" class="d-flex flex-column align-items-center justify-content-center text-muted gap-2">
                             <span style="font-size:2.5rem;">&#128274;</span>
-                            <p class="mb-1 small fw-semibold">Recording not yet publicly available</p>
+                            <p class="mb-1 small fw-semibold">Recording not publicly available</p>
                             <p class="mb-0 small">Contact <a href="mailto:oxfordccai@cs.ox.ac.uk">oxfordccai@cs.ox.ac.uk</a> to request access</p>
                         </div>
                     </div>
@@ -37,7 +37,11 @@ layout: default
                         <p class="text-muted small mb-1">{{ rec.speaker }} &mdash; {{ rec.role }}</p>
                         <p class="text-muted small mb-0">{{ rec.date }}</p>
                         {% if rec.slides %}
-                        <p class="mt-2 mb-0"><a href="{{ rec.slides | relative_url }}" target="_blank" rel="noopener">Slides</a></p>
+                        {% if rec.slides contains '://' %}
+                        <p class="mt-2 mb-0"><a href="{{ rec.slides }}" target="_blank" rel="noopener">[Slides]</a></p>
+                        {% else %}
+                        <p class="mt-2 mb-0"><a href="{{ rec.slides | relative_url }}" target="_blank" rel="noopener">[Slides]</a></p>
+                        {% endif %}
                         {% endif %}
                     </div>
                 </div>
