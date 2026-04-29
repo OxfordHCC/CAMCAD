@@ -224,8 +224,7 @@ submissionModal.addEventListener('hidden.bs.modal', function() {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    var hash = location.hash;
+function openSubmissionFromHash(hash) {
     if (!hash) return;
     var col = document.getElementById(hash.slice(1));
     if (!col) return;
@@ -233,7 +232,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!btn) return;
     col.scrollIntoView({ behavior: 'smooth', block: 'center' });
     setTimeout(function() { btn.click(); }, 400);
-});
+}
+
+document.addEventListener('DOMContentLoaded', function() { openSubmissionFromHash(location.hash); });
+window.addEventListener('hashchange', function(e) { openSubmissionFromHash(location.hash); });
 </script>
 
 {% include footer.html %}
