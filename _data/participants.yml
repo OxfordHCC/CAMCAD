@@ -90,13 +90,17 @@ groups:
       - name: Martin
         surname: Jonsson
         affil: Södertörn University
-      - name: Nora
-        surname: Hille
-        affil: Universität Siegen
       - name: Christina
         surname: Detsika
         affil: Fraunhofer FKIE
+  - title: Contributors
+    sort: true
+    columns: true
+    members:
+      - name: Nora
+        surname: Hille
+        affil: Universität Siegen
       - name: Nomisha
         surname: Kurian
         affil: University of Warwick
-  
+
