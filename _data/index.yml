@@ -1,6 +1,10 @@
 alerts:
   - title: "Workshop submissions and talk recordings are now available!"
     text: "<a href='/CAMCAD/submissions/'>View submissions</a> and <a href='/CAMCAD/recordings/'>talk recordings →</a>"
+    color: blue-1
+  - title: "Call for papers:"
+    text: "<em>Agency in Child-AI Interaction</em> special issue in the International Journal of Child-Computer Interaction is open. <a href='https://www.sciencedirect.com/special-issue/331176/agency-in-child-ai-interaction' target='_blank' rel='noopener'>Submit your paper →</a>"
+    color: yellow-1
 logo:
   url: "assets/img/CAMCAD_logo.svg"
   alt: "Logo depicting an adult hand and child hand putting puzzle pieces together"
