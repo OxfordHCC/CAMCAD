@@ -1,3 +1,15 @@
+.submission-highlighted {
+  outline: 3px solid var(--oc-blue-4);
+  outline-offset: 2px;
+}
+
+.submission-details-btn:focus-visible,
+#modal-pdf-link:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+  box-shadow: none;
+}
+
 .logo {
   display: block;
   margin: auto;

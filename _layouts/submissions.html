@@ -12,7 +12,7 @@ layout: default
         <hr class="my-4">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             {% for submission in site.data.submissions %}
-            <div class="col">
+            <div class="col" id="{{ submission.slug }}">
                 <div class="card h-100 shadow-sm">
                     {% if submission.file %}
                     <a href="{{ submission.file | relative_url }}" target="_blank" rel="noopener">
@@ -24,7 +24,7 @@ layout: default
                     <div class="d-flex align-items-center justify-content-center bg-light pdf-placeholder"
                          style="font-size:4rem;">&#128196;</div>
                     {% endif %}
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column">
                         <p class="fw-semibold mb-1">{{ submission.title }}</p>
                         <p class="text-muted small mb-0">{% assign author_list = submission.authors | split: ", " %}{% for author in author_list %}{% unless forloop.first %}, {% endunless %}{% if author == submission.corresponding_author %}<a href="mailto:{{ submission.corresponding_email }}">{{ author }}</a>*{% else %}{{ author }}{% endif %}{% endfor %}</p>
                         {% if submission.license %}
@@ -44,6 +44,27 @@ layout: default
                             {% endif %}
                         </p>
                         {% endif %}
+                        {% if submission.abstract or submission.agency_definition or submission.role_of_ai %}
+                        <div class="mt-auto pt-3">
+                            <button class="btn btn-sm btn-outline-dark submission-details-btn"
+                                    type="button"
+                                    aria-haspopup="dialog"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#submissionModal"
+                                    data-slug="{{ submission.slug }}"
+                                    data-title="{{ submission.title | escape }}"
+                                    data-authors="{{ submission.authors | escape }}"
+                                    data-corresponding-author="{{ submission.corresponding_author | escape }}"
+                                    data-corresponding-email="{{ submission.corresponding_email | escape }}"
+                                    data-license="{{ submission.license | escape }}"
+                                    data-file="{{ submission.file | relative_url }}"
+                                    data-abstract="{{ submission.abstract | escape }}"
+                                    data-agency="{{ submission.agency_definition | escape }}"
+                                    data-role-ai="{{ submission.role_of_ai | escape }}">
+                                Details
+                            </button>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -51,6 +72,38 @@ layout: default
         </div>
     </div>
 </main>
+
+<div class="modal fade" id="submissionModal" tabindex="-1" aria-labelledby="submissionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="submissionModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="mb-1 small" id="modal-authors"></p>
+                <p class="mb-3 small" id="modal-license"></p>
+                <hr class="mt-0 mb-4">
+                <div id="modal-abstract" class="mb-4">
+                    <p class="fw-semibold mb-1">Abstract</p>
+                    <p class="text-muted mb-0" id="modal-abstract-text"></p>
+                </div>
+                <div id="modal-agency" class="mb-4">
+                    <p class="fw-semibold mb-1">Definition of (co-)agency</p>
+                    <p class="text-muted mb-0" id="modal-agency-text"></p>
+                </div>
+                <div id="modal-role-ai">
+                    <p class="fw-semibold mb-1">Role of AI</p>
+                    <p class="text-muted mb-0" id="modal-role-ai-text"></p>
+                </div>
+            </div>
+            <div class="modal-footer" id="modal-footer">
+                <a id="modal-pdf-link" href="#" target="_blank" rel="noopener"
+                   class="btn btn-sm btn-outline-primary">Read PDF →</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
@@ -88,6 +141,98 @@ document.querySelectorAll('.pdf-thumbnail').forEach(function(canvas) {
                 });
         })
         .catch(function() { canvas.style.display = 'none'; });
+});
+</script>
+
+<script>
+var submissionModal = document.getElementById('submissionModal');
+
+submissionModal.addEventListener('show.bs.modal', function(event) {
+    var btn = event.relatedTarget;
+    if (!btn) return;
+
+    document.getElementById('submissionModalLabel').textContent = btn.dataset.title;
+
+    // Authors — link the corresponding author's name to their email
+    var authors = (btn.dataset.authors || '').split(', ');
+    var corrAuthor = btn.dataset.correspondingAuthor || '';
+    var corrEmail  = btn.dataset.correspondingEmail  || '';
+    var authorsEl = document.getElementById('modal-authors');
+    authorsEl.innerHTML = authors.map(function(a) {
+        if (a === corrAuthor && corrEmail) {
+            return '<a href="mailto:' + corrEmail + '">' + a + '</a>*';
+        }
+        return a;
+    }).join(', ');
+
+    // License
+    var license = btn.dataset.license || '';
+    var licenseEl = document.getElementById('modal-license');
+    var licenseUrls = {
+        'CC BY':       'https://creativecommons.org/licenses/by/4.0/',
+        'CC BY-SA':    'https://creativecommons.org/licenses/by-sa/4.0/',
+        'CC BY-NC':    'https://creativecommons.org/licenses/by-nc/4.0/',
+        'CC BY-NC-SA': 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+        'CC BY-NC-ND': 'https://creativecommons.org/licenses/by-nc-nd/4.0/'
+    };
+    if (license === 'ARR') {
+        licenseEl.innerHTML = '<span class="text-muted">© All rights reserved</span>';
+    } else if (licenseUrls[license]) {
+        licenseEl.innerHTML = '<a href="' + licenseUrls[license] + '" target="_blank" rel="noopener license" class="text-muted text-decoration-none">' + license + ' 4.0</a>';
+    } else {
+        licenseEl.textContent = license;
+    }
+
+    // Abstract / agency / role-of-AI sections
+    var sections = [
+        { id: 'modal-abstract',  textId: 'modal-abstract-text',  key: 'abstract' },
+        { id: 'modal-agency',    textId: 'modal-agency-text',    key: 'agency' },
+        { id: 'modal-role-ai',   textId: 'modal-role-ai-text',   key: 'roleAi' }
+    ];
+    sections.forEach(function(s) {
+        var text = btn.dataset[s.key] || '';
+        document.getElementById(s.textId).textContent = text;
+        document.getElementById(s.id).style.display = text ? '' : 'none';
+    });
+
+    // PDF link
+    var file = btn.dataset.file || '';
+    var footer = document.getElementById('modal-footer');
+    var pdfLink = document.getElementById('modal-pdf-link');
+    if (file) {
+        pdfLink.href = file;
+        footer.style.display = '';
+    } else {
+        footer.style.display = 'none';
+    }
+
+    // Hash + highlight
+    var slug = btn.dataset.slug;
+    if (slug) {
+        history.replaceState(null, '', '#' + slug);
+        document.querySelectorAll('.submission-highlighted').forEach(function(el) {
+            el.classList.remove('submission-highlighted');
+        });
+        btn.closest('.card').classList.add('submission-highlighted');
+    }
+});
+
+submissionModal.addEventListener('hidden.bs.modal', function() {
+    history.replaceState(null, '', location.pathname + location.search);
+    document.querySelectorAll('.submission-highlighted').forEach(function(el) {
+        el.classList.remove('submission-highlighted');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var hash = location.hash;
+    if (!hash) return;
+    var col = document.getElementById(hash.slice(1));
+    if (!col) return;
+    var btn = col.querySelector('.submission-details-btn');
+    if (!btn) return;
+    col.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setTimeout(function() { btn.click(); }, 400);
 });
 </script>
 

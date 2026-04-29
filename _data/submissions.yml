@@ -1,110 +1,457 @@
 - id: 3
+  slug: li-appearance-robots
   title: "Appearance, Behaviour, and Emotion: How Preschool Children Integrate Anthropomorphic Cues to Exercise Agency And Build Trust in Robots"
   authors: "Tingyu Li, Keyu Mao, Yuwei Jiang, Yijin Yang, Zisong Li, Liqi Zhu, Jianing Wang"
   corresponding_author: "Keyu Mao"
   corresponding_email: "wennieyu07@outlook.com"
   file: "/assets/submissions/3%20Li%20et%20al%20-%20Appearance..Robots.pdf"
   license: "CC BY"
+  abstract: >-
+    The sense of agency refers to the subjective experience of controlling one's own actions and
+    the external environment. The current research investigates how distinct forms of anthropomorphism,
+    children's age, and agent type interactively shape children's sense of agency during robot interactions.
+    Trust is conceptualised as an expression of agency, reflected through children's authorship of decisions
+    and anticipation of outcomes. Results consistently demonstrated that older children (age 6) exhibited
+    stronger agentive decision-making. Children consistently showed greater trust toward robots featuring
+    higher levels of anthropomorphism, with agency peaking when appearance, behaviour, and emotional
+    expressiveness converged. Notably, behavioural and emotional cues exerted a stronger influence than
+    appearance alone, suggesting that robots' actions and emotional responsiveness play more critical roles
+    than visual design.
+  agency_definition: >-
+    The sense of agency refers to the subjective experience of controlling one's own actions and the
+    external environment. In the current study, trust is conceptualised as an expression of agency,
+    reflected through children's authorship of decisions and anticipation of outcomes.
+  role_of_ai: >-
+    This work examines social robots as embodied AI systems that use anthropomorphic cues to shape
+    children's decision-making and interactional agency. The AI systems do not merely present information
+    but actively influence how children evaluate trust, anticipate outcomes, and exercise control within
+    interactive exchanges. By manipulating robots' physical appearance, behavioural dynamics, and emotional
+    expressiveness, the studies reveal how AI design features scaffold children's judgments rather than
+    determine them. The findings highlight AI's role in structuring interactional contexts in which children
+    engage critically, negotiate uncertainty, and make agentive decisions, offering insights for designing
+    child-centred AI that supports meaningful engagement without encouraging passive or uncritical reliance.
 
 - id: 4
+  slug: park-repositioning-collaboration
   title: "Repositioning AI as a Thinking Partner in Child–AI Collaboration: Interview-grounded insights for role-differentiated child–AI collaboration"
   authors: "Sohyun Park, Woohun Lee"
   corresponding_author: "Sohyun Park"
   corresponding_email: "sohyunpark@kaist.ac.kr"
   file: "/assets/submissions/4%20Park%20and%20Lee%20-%20Repositioning..Collaboration.pdf"
   license: "CC BY"
+  abstract: >-
+    Children increasingly use large language models (LLMs) during curiosity-driven inquiry and
+    idea/content generation. While AI can provide immediate support, stakeholders raise concerns that
+    early or one-shot AI outputs may encourage children to offload core thinking processes such as idea
+    origination, judgment, and reflection. This work draws on in-depth interviews with parents, teachers,
+    and child-development researchers to examine how children's AI use should be supported. Rather than
+    proposing a new system, we translate stakeholders' perspectives and strategies into a normative
+    proposal for positioning AI in child–AI collaboration. We argue that child-centred collaborative
+    agency is best supported through role-differentiated collaboration, where children remain primary
+    initiators of ideas and decisions and AI is repositioned as a thinking partner that strengthens—rather
+    than substitutes for—children's thinking.
+  agency_definition: >-
+    We define child-centred collaborative agency as children's active role in initiating, shaping, and
+    directing their own thinking processes within AI-mediated interaction. In this context, children remain
+    the primary initiators of ideas and decisions, while AI provides complementary support without taking
+    over core thinking processes such as idea origination, judgment, and reflection. Co-agency is not
+    achieved through equal control, but through clearly differentiated roles and sequencing—so that AI
+    strengthens children's thinking and decision-making rather than substituting for them.
+  role_of_ai: >-
+    Our work focuses on LLM-based conversational AI used by children during inquiry and idea/content
+    generation. We examine how AI involvement can shape children's thinking, particularly the risk that
+    one-shot or early AI outputs may encourage cognitive offloading. Rather than presenting a new
+    prototype, we propose a normative role for AI in child–AI collaboration: AI should function as a
+    thinking partner that supports reflection, refinement, and expansion after children initiate ideas,
+    helping children develop and evaluate their thinking without directing it.
 
 - id: 5
+  slug: aadmi-laamech-ai-collaboration
   title: "AI-Mediated Scaffolding for Student Agency and Peer Collaboration"
   authors: "Khadija El Aadmi-Laamech, Patricia Santos, Xènia Fàbrega"
   corresponding_author: "Khadija El Aadmi-Laamech"
   corresponding_email: "khadija.elaadmi@upf.edu"
   file: "/assets/submissions/5%20Aadmi-Laamech%20et%20al%20-%20AI..Collaboration.pdf"
   license: "CC BY-NC-SA"
+  abstract: >-
+    The Well-Being Journey is an adaptive tool that supports students based on the Basic Psychological
+    Needs (BPN) framework: autonomy, competence, and relatedness. This work-in-progress explores how
+    AI-driven insights and Human-In-The-Loop (HITL) feedback foster collaborative agency in primary
+    school Maker activities (ages 8–12). After identifying low-scoring BPN areas based on student input,
+    the system provides evidence-based suggestions for the teacher to validate. This creates a dual-layered
+    agency model: teachers curate interventions while students receive 'scaffolded agency' to overcome
+    barriers to peer interaction. The Well-Being Journey thus utilizes AI as a mediator, helping educators
+    transform students from individual learners into agentic collaborators in creative, hands-on environments.
+  agency_definition: >-
+    In early childhood contexts, agency refers to the capacity to influence what and how students learn,
+    closely linked to competence, autonomy, reflexivity, and purpose. Agency is described as a natural
+    driver in humans according to Self-Determination Theory (SDT), which connects this agentic ability to
+    the Basic Psychological Needs (BPNs): autonomy, competence and relatedness. Self-determined behaviour
+    is described as "acting as the primary causal agent in one's life and making choices and decisions
+    regarding one's quality of life free from undue external influence or interference."
+  role_of_ai: >-
+    This work-in-progress examines how Generative Artificial Intelligence (GenAI) can be used, in the
+    context of collaborative practices, to scaffold students' agency through the lens of SDT. The
+    Well-being Journey offers the necessary space to carry out such an examination, with the integration
+    of GenAI being a current work-in-progress. The main objective is to explore how providing personalized
+    activities, designed with the support of GenAI to address students' specific basic psychological needs,
+    can enhance their collaborative skills and sense of agency.
 
 - id: 6
+  slug: hernandez-young-learning
   title: "Young People Co-Agency in a Virtual Heritage VR Escape Room with AI Agents for Sustainable Fashion Learning"
   authors: "Diana Hernandez Manzo"
   corresponding_author: "Diana Hernandez Manzo"
   corresponding_email: "d.hernandez-manzo@rgu.ac.uk"
   file: "/assets/submissions/6%20Hernandez%20-%20Young..Learning.pdf"
   license: "CC BY"
+  abstract: >-
+    This poster presents the design and evaluation of a young people-centred virtual heritage VR escape
+    room enhanced with an AI conversational agent to support collaborative sustainable fashion learning.
+    The project investigates how immersive technologies and artificial intelligence can mediate user agency
+    and co-agency in educational contexts, particularly in relation to sustainable fashion and cultural
+    heritage. A mixed-method evaluation was conducted using a pre- and post-survey design, complemented by
+    a comparative study between a traditional learning group and a VR-based group. Preliminary findings
+    indicate increased engagement, improved understanding of sustainable fashion concepts, and positive
+    shifts in attitudes toward responsible consumption among participants using the VR and AI system.
+  agency_definition: >-
+    In this study, agency is defined as the capacity of users to make informed decisions and actively
+    engage with learning content within an immersive environment. Co-agency refers to the shared
+    decision-making process emerging from interactions between users and an AI conversational agent, as
+    well as among participants (young people) in collaborative learning scenarios. Within the VR escape
+    room, co-agency is manifested through the dynamic interplay between user actions, AI guidance, and
+    heritage-based content that collectively shape learning outcomes.
+  role_of_ai: >-
+    The AI conversational agent, based on Convai (an AI-driven conversational agent platform designed to
+    enable natural, real-time interactions within virtual environments), provides real-time guidance,
+    contextual information, and adaptive feedback during the VR escape room experience. The AI system
+    shapes interaction by responding to user queries, offering hints, and supporting reflective learning
+    about sustainable fashion and heritage. Through this mediation, the AI contributes to both individual
+    agency and collaborative co-agency, influencing how participants interpret information, make decisions,
+    and engage with the immersive learning environment.
 
 - id: 7
+  slug: rabaan-enacting-families
   title: "Enacting Collaborative Agency through Critical AI Literacy: A Community-Based Program with Black and Brown Middle School Girls and Their Families"
   authors: "Hawra Rabaan, Sheena Erete"
   corresponding_author: "Hawra Rabaan"
   corresponding_email: "hrabaan@umd.edu"
   file: "/assets/submissions/7%20Rabaan%20and%20Erete%20-%20Enacting..Families.pdf"
   license: "CC BY"
+  abstract: >-
+    Artificial intelligence (AI) systems increasingly shape domains such as education, hiring, policing,
+    healthcare, and media representation. Yet Black and brown communities are disproportionately impacted
+    by algorithmic bias and exclusion while remaining underrepresented in AI design and governance. We
+    present a case study of a two-week, community-based critical AI literacy program co-designed over ten
+    months with a local nonprofit. Eighteen Black and Latinx middle school girls and their families engaged
+    in identity grounding, sociotechnical critique, community inquiry, and creative redesign. Collaborative
+    agency was enacted through: identity grounding; power and community visioning; making AI visible through
+    classifier training and generative prompt remixing; youth-led inquiry via community interviews on
+    racial injustice and AI bias; and creative redesign through zines and 3D prototypes. Rather than
+    positioning youth as passive learners, the program structured intergenerational dialogue and collective
+    authorship of alternative technological futures.
+  agency_definition: >-
+    Agency refers to young people's capacity to critically examine AI systems, make informed and
+    values-driven decisions about their design and impact, and act on those decisions through inquiry,
+    dialogue, and creative production. Collaborative (co-)agency extends this by recognizing that
+    decision-making and action were relational and distributed across an interconnected stakeholder
+    ecosystem — enacted through shared authorship among Black and brown middle school girls, educators,
+    and community members. Co-agency was not individual empowerment in isolation, but the structured,
+    collective enactment of critique and redesign across classroom, community, and family contexts.
+  role_of_ai: >-
+    Our work centers on critical AI literacy rather than the development of a single AI system. Youth
+    engaged with multiple AI applications — including Google's Teachable Machine, generative AI tools,
+    and introductory AI coding exercises — to understand how AI systems function and how they shape social
+    outcomes. AI tools shaped interaction by creating ambiguity, surprise, and friction that required
+    collective interpretation. Refining prompts and retraining models prompted group negotiation about
+    wording, desired outcomes, and ethical implications. In this program, AI systems did not automate
+    collaboration; instead, they structured shared inquiry, enabling youth to question, reinterpret, and
+    redesign AI in dialogue with peers, educators, and families.
 
 - id: 8
+  slug: wang-gather-co-play
   title: "Gather to Glow: Designing an Autonomy-Supportive Game for Parent–Child Digital Co-Play"
   authors: "Jianing Wang, Xiaopeng Wang, Junhong Jiang, Xinyun Luo, Hanxiang Xu, Tzu-Jung Tseng, Chun Chen, Ruolin Wang, Yuhua Jin"
   corresponding_author: "Jianing Wang"
   corresponding_email: "jianingwang1@link.cuhk.edu.cn"
   file: "/assets/submissions/8%20Wang%20et%20al%20-%20Gather..Co-Play.pdf"
   license: "CC BY-NC-ND"
+  abstract: >-
+    Parent–child digital co-play raises a design challenge in which caregiver involvement can
+    unintentionally become parental dominance, potentially undermining children's autonomy. Drawing on
+    Self-Determination Theory (SDT), we present Gather to Glow, an autonomy-supportive game that
+    integrates Parental Autonomy Support (PAS) guidelines to scaffold caregiver participation while
+    ensuring child-led play. The system operationalizes autonomy through asymmetric roles that secure
+    child-led exploration and decision authority, diegetic and visual feedback to sustain intrinsic
+    motivation, and choices-as-collectibles with AI customization. Pilot observations illustrate how
+    this structured interaction preserves child volition while creating moments in which children enact
+    agency in play and families begin to co-construct child-led co-agency.
+  agency_definition: >-
+    We use agency to refer to children's perceived and enacted capacity to initiate, interpret, and shape
+    the unfolding co-play activity — visible not only as "I choose this," but as "I choose this because
+    it matters to me, and it expresses something I want to become or do." We use co-agency to describe
+    child-led but mutually supportive participation, where caregivers contribute without taking over.
+    Gather to Glow is framed as an autonomy-supportive system that supports children's volition while
+    also creating conditions for enacted agency and parent–child co-agency during play.
+  role_of_ai: >-
+    At present, AI appears in two main ways. First, it supports personalized fragment creation, allowing
+    children to move beyond selecting predefined options and instead express self-authored ideas and
+    interests through customized game elements. Second, AI supports reflection and continuation through
+    the generation of a "Family Lamp," which translates child-endorsed interests into possible future
+    family activities and helps carry children's articulated intentions into shared family reflection,
+    potentially creating further moments of co-agency. In future iterations, an in-game autonomy-supportive
+    agent would detect key interaction moments — such as caregiver takeover risk or child hesitation —
+    and respond in ways that support child-led action and mutually supportive participation.
 
 - id: 9
+  slug: sanseverino-ai-bouldering
   title: "AI as a Partner for Children's Bouldering"
   authors: "Giuseppe Sanseverino, Lena Marcella Nischwitz, Dominik Krumm, Lewis Chuang"
   corresponding_author: "Giuseppe Sanseverino"
   corresponding_email: "giuseppe.sanseverino@phil.tu-chemnitz.de"
   file: "/assets/submissions/9%20Sanseverino%20et%20al%20-%20AI..Bouldering.pdf"
   license: "CC BY-SA"
+  abstract: >-
+    This poster addresses the physical and safety barriers that children encounter in bouldering, where
+    traditional route designs often assume adult reach and skill levels. To mitigate these challenges,
+    we propose a Generative AI Recommender System that functions as a digital scaffolding partner by
+    selecting personalized subsets of existing climbing holds to suggest safe, reachable paths. The system
+    integrates anthropometric mapping to align route difficulty with a child's specific physical dimensions
+    while utilizing skill-adaptive algorithms to adjust recommendations based on recent performance. The AI
+    fosters co-agency by providing customized instructions to support decision-making, while the child
+    retains full physical autonomy.
+  agency_definition: >-
+    Co-agency is defined here as a dynamic, scaffolding partnership where the child and a Generative AI
+    recommender system operate in complementarity to support decision-making in bouldering. While the
+    child retains full physical autonomy over their movements, the AI acts as a collaborative co-agent
+    that actively participates in shaping the learning process by dynamically tailoring safe, reachable
+    pathways based on the child's anthropometry and skill level. By utilizing Explainable AI, the system
+    provides transparent, child-friendly feedback, building self-efficacy and inducing a state of flow
+    by balancing the bouldering challenge with the child's capabilities.
+  role_of_ai: >-
+    This poster proposes a Generative AI-based Recommender System. The system integrates anthropometric
+    data, bouldering wall/holds information, and real-time performance metrics to dynamically generate or
+    select bouldering routes tailored to the child's specific reach and skill level. It shapes the
+    collaboration by acting as an adaptive scaffolding partner rather than a static guide, continuously
+    calibrating difficulty to ensure safety while providing stimulating challenges needed for skill
+    acquisition. Through an app interface, the AI provides child-friendly gamified feedback and simple
+    explanations for why a specific route was suggested, helping the child understand their own physical
+    capabilities better.
 
 - id: 10
+  slug: ferrando-toddlers-communication
   title: "Toddlers and Emotion: A TUI for Emotional Communication"
   authors: "Silvia Ferrando, Eleonora Ceccaldi"
   corresponding_author: "Silvia Ferrando"
   corresponding_email: "silferr96@gmail.com"
   file: "/assets/submissions/10%20Ferrando%20and%20Ceccaldi%20-%20Toddlers..Communication.pdf"
   license: "CC BY"
+  abstract: >-
+    This work presents the co-design of a Tangible User Interface (TUI) for toddlers (24–36 months),
+    building on a pre-existing prototype. Educators in pre-kindergarten expressed the want for a system
+    to introduce toddlers to Socio-Emotional Learning (SEL) through Embodied Learning and Affective
+    Computing. To do so, we explored ways to include toddlers in the design process.
+  agency_definition: >-
+    The interactive, mutually supportive relationships that help learners to progress towards their valued
+    goals. In this context, everyone should be considered a learner.
+  role_of_ai: >-
+    After playing with the system, AI detects movement features of the drawing just finished and suggests
+    a feeling based on it. Based on the emotions detected, the system also gives a final overview of the
+    group who used the prototype (e.g. 50% of the participants were happy, 10% were sad, etc.).
 
 - id: 11
+  slug: fernaeus-scam-research
   title: "It's a Scam: On Being Truthful when Involving Children in Robotics Research"
   authors: "Ylva Fernaeus, Sara Ljungblad, Martin Jonsson, Loove Broms"
   corresponding_author: "Ylva Fernaeus"
   corresponding_email: "ylva.fernaeus@umu.se"
   file: "/assets/submissions/11%20Fernaeus%20et%20al%20-%20Scam..Research.pdf"
   license: "CC BY-NC"
+  abstract: >-
+    We discuss the challenge of exploring interactive technology within a children's culture dominated
+    by transhumanist narratives of autonomous technology, metallic friends, time travel, and future visions
+    shaped by technological determinism. This position statement reflects on our role as design researchers
+    in navigating this cultural backdrop in design efforts that include AI-imaginaries, especially together
+    with children.
+  agency_definition: >-
+    Co-agency in our context (children's play with AI-enabled robotic toys) points to the shared
+    production of action and meaning that emerges when children interact with it as a toy while
+    simultaneously drawing on cultural narratives of robots from media and fiction.
+  role_of_ai: >-
+    Robots are compelling for exploring AI because they combine embodied behavior, perceived social agency,
+    and children's cultural narratives, making complex AI ideas playable, observable, and meaningful
+    to discuss.
 
 - id: 12
+  slug: hendawy-reimagining-co-agency
   title: "Reimagining AI-Enabled Child Online Safety: From Control to Co-Agency"
   authors: "Mennatullah Hendawy, Magy Seif el Nasr"
   corresponding_author: "Mennatullah Hendawy"
   corresponding_email: "mhendawy@ucsc.edu"
   license: "ARR"
+  abstract: >-
+    Child online safety tools still treat children as objects of surveillance rather than partners in
+    safety. This paper reframes the protection-autonomy paradox as a co-agency design problem: more
+    monitoring can erode trust and prompt circumvention, increasing exposure to harm. It introduces
+    Digital Co-Agency, a distributed model where children, caregivers, and AI jointly shape safety
+    decisions over time through shared decision-making and scaffolded autonomy. Rather than a digital
+    policeman, AI becomes a digital mentor that adds reflective friction, explains why content or behavior
+    is flagged, and supports self-regulated learning while preserving privacy and contestability.
+  agency_definition: >-
+    Agency is defined as a child's evolving capacity to understand, influence, and regulate their digital
+    actions and risks. Co-agency refers to a distributed, collaborative form of agency where children,
+    caregivers, and AI systems jointly shape safety decisions over time — operationalized as shared
+    decision-making rather than unilateral control, scaffolded autonomy rather than unrestricted freedom,
+    and negotiable, explainable AI interventions that support reflection, learning, and self-regulation.
+    Digital co-agency is a collaborative, personalized, and autonomy-enhancing approach that treats
+    children as active participants in shaping their digital lives, shifting the safety focus from
+    unilateral control (Parent → Child) to relational co-regulation (parent ↔ Child), where technology
+    acts as a supportive third partner.
+  role_of_ai: >-
+    AI is reimagined as a "Digital Mentor" rather than a "Digital Policeman". Instead of opaque
+    "black-box" blocking, the AI system: scaffolds guardrails by identifying risks and providing
+    "reflective friction" or "pause-and-plan" prompts before a child acts; provides transparent mediation
+    by offering "why flagged" rationales to transform automated interventions into teachable moments;
+    and facilitates adaptive support by using NLP and Computer Vision to detect emotional tone or harmful
+    imagery, offering real-time guidance to help the child self-regulate. AI plays a shaping, not
+    dominating, role in the safety ecosystem — a context-aware guide that detects risk patterns, a
+    reflective scaffold that prompts pause and explanation, and a co-regulation mediator supporting
+    parent–child communication.
 
 - id: 13
+  slug: hille-learning-robot
   title: "Learning through Conversation Games with AI and a Robot"
   authors: "Nora Hille"
   corresponding_author: "Nora Hille"
   corresponding_email: "nora.hille@uni-siegen.de"
   file: "/assets/submissions/13%20Hille%20-%20Learning..Robot.pdf"
   license: "CC BY"
+  abstract: >-
+    In a participatory study, different conversational games were created together with 13 kindergarten
+    and 20 elementary school children. These games were iteratively tested and improved. Over the span of
+    six months, six sessions were conducted in which the children interacted with a social robot named
+    Navel, who played the games with them. Afterward, the children and their caretakers (teachers, parents,
+    and kindergarten staff) were interviewed. The games were easy to construct and change and were well
+    received by the children as well as the adult participants, inspiring cooperation between the children
+    and higher engagement than usual. However, the AI also produced context mismatches, which could have
+    negative implications. Therefore, it is important to educate children on the threats and benefits of
+    AI and enable them to have a self-determined relationship with it.
+  agency_definition: >-
+    Agency is about enabling children to take an active part in research as well as development of
+    products. The study should focus foremost on the way children responded to the games with the robot,
+    their ideas and concerns. Agency within a research project also includes seeing children as
+    participants with rights: parents signed the consent form, yet children's opinions were also taken into
+    consideration. Before and during each evaluation session the children were asked if they wanted to
+    participate and were told they were able to leave at any time. No incentives like candy or toys were
+    used to sway the children's decision.
+  role_of_ai: >-
+    In order to enable the robot to speak and engage in a conversation, we used GPT-4-turbo-preview from
+    OpenAI to generate responses to the children's statements, as well as prompt them to answer questions
+    or engage in a game. For this purpose a contract between OpenAI and the university was made that
+    ensured the data would not be used elsewhere.
 
 - id: 14
+  slug: detsika-childrens-interfaces
   title: "Children's Perception on LLM-driven Voice User Interfaces"
   authors: "Christina Detsika, Marie Matters, Matthew Smith"
   corresponding_author: "Christina Detsika"
   corresponding_email: "detsika@cs.uni-bonn.de"
   file: "/assets/submissions/14%20Detsika%20et%20al%20-%20Childrens..Interfaces.pdf"
   license: "CC BY"
+  abstract: >-
+    Large Language Models (LLMs) are implemented in many smart devices, accessible for any kind of user.
+    Children use LLMs such as ChatGPT for knowledge building while those systems are not designed
+    specifically for them. To overcome this, Voice User Interfaces (VUIs) with integrated LLMs can be
+    more suitable for young users with limited reading and writing skills. Parents play a guiding role,
+    making sure their children have safe and secure access to the system. In the following we want to
+    express some questions and ideas on the topic of Children-VUI-Interaction for educational purposes
+    and how LLMs shape this kind of interaction.
+  agency_definition: >-
+    The AI is integrated within a VUI and takes up an active role in communicating with children, and
+    might be able to support children learn about new topics by answering questions from them. At the
+    same time, the VUI is being provided by parents, who should be in charge of guiding their children
+    with this kind of interaction. Children could test the VUI's ability to answer questions on educational
+    topics and give us insights into what really helps them use and trust this system, such as the LLM's
+    voice.
+  role_of_ai: >-
+    AI, specifically LLMs such as ChatGPT's advanced voice mode, would have an educating role for the
+    children, especially since its voice mode can adapt to children's language level or explain things
+    by talking "like a human would". Parents would work with the AI by setting it up and also guiding
+    their children in its usage. The AI's settings such as its voice profile is especially interesting
+    since this might influence the children's perception of it and thus their acceptance of using such
+    a system for educational purposes.
 
 - id: 15
+  slug: kurian-designing-agency
   title: "Designing Minds in Dialogue: Conversational AI as a Scaffold for Children's Cognitive Agency"
   authors: "Nomisha Kurian"
   corresponding_author: "Nomisha Kurian"
   corresponding_email: "nomisha-chandran.kurian@warwick.ac.uk"
   file: "/assets/submissions/15%20Kurian%20-%20Designing..Agency.pdf"
   license: "CC BY"
+  abstract: >-
+    How do we design LLM-powered conversational AI to support reflection, voice, and decision-making in
+    early childhood, rather than narrowing young children's capacity to think for themselves? This
+    conceptual paper argues that Sustained Shared Thinking (SST), a well-established framework in early
+    childhood education, provides a strong theoretical foundation for agency-driven child-AI design. Young
+    children (0–8) encounter conversational AI in a distinct cognitive context: unlike adults, they are
+    still developing executive function, causal reasoning, and metacognition. The paper introduces the
+    3C Framework: Co-Construction, Challenge, and Curiosity — shifting evaluation criteria for child-facing
+    LLM systems away from fluency and efficiency toward developmental outcomes.
+  agency_definition: >-
+    Cognitive agency refers to a young child's capacity to generate ideas, reflect on them, justify them,
+    revise them, and act on them within dialogic interaction — exercising epistemic authorship, the sense
+    that one's thinking is self-initiated, deliberative, and consequential. Co-agency refers to the
+    distributed process through which thinking and decision-making emerge across child, peers, adults, and
+    the conversational AI system. Within the 3C framework, cognitive agency is strengthened when
+    "Co-Construction" preserves children's authorship of ideas across turns, "Challenge" introduces
+    calibrated friction that requires justification and perspective-taking, and "Curiosity" sustains inquiry
+    rather than prematurely resolving uncertainty.
+  role_of_ai: >-
+    The work centres on LLM-powered conversational AI used in both home and educational settings. Drawing
+    on early childhood education theory, the paper advocates for designing systems that scaffold
+    collaborative reasoning through structured prompts aligned with the 3C framework, rather than
+    functioning as answer generators. Such an AI shapes interaction by regulating turn-taking, resurfacing
+    children's prior contributions, and prompting peers to respond to one another. Rather than resolving
+    uncertainty quickly, it introduces calibrated cognitive stretch through counterfactuals, requests for
+    justification, and perspective prompts, redistributing epistemic authority back to the child-user.
 
 - id: 16
+  slug: kondo-algorithmic-selves
   title: "Algorithmic Mirror: Helping Adolescents See and Shape Their Algorithmic Selves"
   authors: "Yui Kondo, Kevin Dunnell, Isobel Voysey, Qing Hu, Victoria Paesano, Qing Xiao, Jun Zhao, Luc Rocher"
   corresponding_author: "Yui Kondo"
   corresponding_email: "yuikondobook@gmail.com"
   file: "/assets/submissions/16%20Kondo%20et%20al%20-%20Algorithmic..Selves.pdf"
   license: "CC BY-NC-SA"
+  abstract: >-
+    Social media platforms regularly track, aggregate, and monetize adolescents' data, yet provide them
+    with little visibility or agency over how algorithms construct their digital identities and make
+    inferences about them. We introduce Algorithmic Mirror, an interactive visualization tool that
+    transforms opaque profiling practices into explorable landscapes of personal data. It uniquely
+    leverages adolescents' real digital footprints across TikTok, YouTube, and Netflix to provide situated,
+    personalized insights into datafication over time. In our study with 27 participants aged 12 to 16 we
+    show how engaging with their own data enabled adolescents to uncover the scale and persistence of data
+    collection, recognize cross-platform profiling, and critically reflect on algorithmic categorizations
+    of their interests. Our findings show that identity is a powerful motivator for reflecting on
+    datafication, highlighting the need for platforms to ensure young people have transparency and control
+    over their algorithmic profiles.
+  agency_definition: >-
+    We define agency in the context of Algorithmic Mirror as relational — a capacity that is not held by
+    any single actor but emerges through the interplay between adolescents, researchers, platforms, and
+    the mediating tools that connect them. Drawing on Edwards' (2005) concept of relational agency, we
+    understand agency as the capacity to work alongside others to expand interpretations of a shared
+    problem — in our case, the opacity of algorithmic profiling and its consequences for adolescent
+    identity. The visualization tool mediates between these actors, making opaque platform processes legible
+    and creating a space where critical engagement can occur. Agency thus arises relationally — when
+    research design makes the invisible visible, platform data practices produce something worth questioning,
+    and the adolescent's own identity provides the motivation to engage.
+  role_of_ai: >-
+    Algorithmic Mirror uses AI at two levels. At the data processing level, OpenAI's text-embedding-ada-002
+    converts video descriptions into vector representations, which are then clustered via UMAP to produce
+    a spatial map of viewing interests. GPT-4 generates inferred topic labels for each semantic cluster,
+    providing human-readable interpretations of algorithmically grouped content. At the interaction level,
+    AI shapes the experience by transforming raw data traces into an explorable landscape that adolescents
+    can navigate, question, and reflect upon. Rather than making decisions on behalf of users, it renders
+    visible the kind of algorithmic inferences that platforms typically keep opaque — serving as a
+    mediating layer between platform data practices and adolescent understanding.
