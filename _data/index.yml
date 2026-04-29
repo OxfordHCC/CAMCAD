@@ -1,6 +1,6 @@
 alerts:
-  - title: "Workshop submissions are now available!"
-    text: "Camera-ready posters and pictorials from all accepted submissions are online. <a href='/CAMCAD/submissions/'>View submissions →</a>"
+  - title: "Workshop submissions and talk recordings are now available!"
+    text: "<a href='/CAMCAD/submissions/'>View submissions</a> and <a href='/CAMCAD/recordings/'>talk recordings →</a>"
 logo:
   url: "assets/img/CAMCAD_logo.svg"
   alt: "Logo depicting an adult hand and child hand putting puzzle pieces together"

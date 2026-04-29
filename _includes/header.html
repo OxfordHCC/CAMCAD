@@ -20,6 +20,8 @@
                     {% assign href = link.url | relative_url %}
                     {% if link.title == "Submissions" %}
                     <a class="nav-link nav-link-submissions{% if page.layout == current %} active{% endif %}" {% if page.layout == current %}aria-current="page" {% endif %}href="{{ href }}">{{ link.title }}</a>
+                    {% elsif link.title == "Recordings" %}
+                    <a class="nav-link nav-link-recordings{% if page.layout == current %} active{% endif %}" {% if page.layout == current %}aria-current="page" {% endif %}href="{{ href }}">{{ link.title }}</a>
                     {% elsif page.layout == current %}
                     <a class="nav-link active" aria-current="page" href="{{ href }}">{{ link.title }}</a>
                     {% else %}
