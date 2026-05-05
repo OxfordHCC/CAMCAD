@@ -5,7 +5,7 @@ description: List of organisers and attendees
 navorder: 3
 ---
 
-The list of workshop organisers, presenters, and attendees is available below.
+The list of workshop organisers, presenters, and attendees is available below. **Organisers** planned and ran the workshop. **Presenters** gave invited talks. **Participants** attended in person and presented posters or pictorials. **Contributors** were unable to attend in person but submitted work that was presented and discussed at the workshop. **Guests** attended the workshop in person.
 
 ## Community
 

@@ -103,4 +103,17 @@ groups:
       - name: Nomisha
         surname: Kurian
         affil: University of Warwick
+  - title: Guests
+    sort: true
+    columns: true
+    members:
+      - name: Annie
+        surname: Strickland Fisher
+        affil: independent
+      - name: Boyd
+        surname: Branch
+        affil: University of Southampton
+      - name: Ann-Kristin
+        surname: Lieberknecht
+        affil: Goethe University Frankfurt
 
