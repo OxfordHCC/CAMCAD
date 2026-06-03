@@ -6,7 +6,7 @@
 
 <header class="bg-{{ site.data.skin.header.bg | default: 'gray-4' }}">
     <div class="container">
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="{{ return }}">{{ site.title }}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,6 +22,8 @@
                     <a class="nav-link nav-link-submissions{% if page.layout == current %} active{% endif %}" {% if page.layout == current %}aria-current="page" {% endif %}href="{{ href }}">{{ link.title }}</a>
                     {% elsif link.title == "Recordings" %}
                     <a class="nav-link nav-link-recordings{% if page.layout == current %} active{% endif %}" {% if page.layout == current %}aria-current="page" {% endif %}href="{{ href }}">{{ link.title }}</a>
+                    {% elsif link.title == "Report" %}
+                    <a class="nav-link nav-link-report{% if page.layout == current %} active{% endif %}" {% if page.layout == current %}aria-current="page" {% endif %}href="{{ href }}">{{ link.title }}</a>
                     {% elsif page.layout == current %}
                     <a class="nav-link active" aria-current="page" href="{{ href }}">{{ link.title }}</a>
                     {% else %}
